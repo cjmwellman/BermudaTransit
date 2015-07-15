@@ -11,10 +11,17 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', function () { return view('welcome'); });
 
-Route::get('/test', function () {
-    return view('test');
-});
+Route::get('home', 'StaticPageController@home');
+
+Route::get( 'contact',  'StaticPageController@contact' );
+
+Route::get ('about', 'StaticPageController@about');
+
+Route::get('/test', function () { return view('test'); });
+
+Route::controllers([
+  "auth" => 'Auth\AuthController',
+  "password" => 'Auth\PasswordController',
+    ]);
