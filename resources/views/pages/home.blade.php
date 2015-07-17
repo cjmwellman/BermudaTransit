@@ -1,14 +1,14 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>BermudaTransit/Index</title>
-  </head>
-  <body>
+@extends('master')
+
+@section('content')
+
 
     <h1>Home</h1>
-    <p>This is a bit of text to determine the index page </p>
 
+    <p>This is a bit of text to determine the contact me page </p>
 
-  </body>
-</html>
+@stop
+
+@section('footer')
+    <script>alert('Contact form scripts'); </<script>
+@stop

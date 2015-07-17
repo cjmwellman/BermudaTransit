@@ -19,6 +19,8 @@ Route::get( 'contact',  'StaticPageController@contact' );
 
 Route::get ('about', 'StaticPageController@about');
 
+Route::get ('busschedule', 'StaticPageController@busschedule');
+
 Route::get('/test', function () { return view('test'); });
 
 Route::controllers([

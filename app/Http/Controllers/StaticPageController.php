@@ -79,14 +79,20 @@ class StaticPageController extends Controller
      * @return Response
      */
 
+    public function home()
+    {
+      return view('pages.home');
+    }
+
     public function contact()
     {
       return view('pages.contact');
     }
 
-    public function home()
+    public function busschedule()
     {
-      return view('pages.home');
+
+      return view('pages.busschedule');
     }
 
     public function about()
