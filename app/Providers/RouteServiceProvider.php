@@ -24,9 +24,15 @@ class RouteServiceProvider extends ServiceProvider
      */
     public function boot(Router $router)
     {
-        //
+      // $router->('articles', function($id)
+      // {
+      //   return App\Notification::date()->findorFail($id);
+      // }); used for bigger projects
 
         parent::boot($router);
+
+        $router->model('notifies', 'App\Notification');
+
     }
 
     /**

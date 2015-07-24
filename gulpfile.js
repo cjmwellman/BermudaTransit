@@ -12,5 +12,21 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.sass('app.scss');
+
+    // mix.phpUnit().phpSpec();
+
+    mix.sass('app.scss');//.coffee();
+
+    mix.styles([ 'vendor/normalize.css','app.css'] , 'null', 'public/css');
+
+    mix.version('public/css/all.css'); //cache version file
+
+    // mix.scripts([
+    //   'vendor/jquery.js',
+    //   'main.js',
+    //   'coupon.js'
+    // ],'public/output/scripts.js', 'public/js');
+
+
+
 });
