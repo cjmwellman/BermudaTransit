@@ -18,7 +18,7 @@
 			<div class="row">
 				<div class="col-xs-5 header-logo">
 					<br>
-					<a href="index.html"><img src="img/TLFGroup.jpg" alt="" class="img-responsive logo"></a>
+					<a href="index.html"><img src="/img/bdatranlogo.png" alt="" class="img-responsive logo"></a>
 				</div>
 
 				<div class="col-md-7">
@@ -38,11 +38,11 @@
 					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 					      <ul class="nav navbar-nav navbar-right">
-									<li><a class="menu active" href="{{url('/index')}}"> home </a></li>
-                  <li><a class="menu" href="{{url('/busfare')}}"> bus schedule </a></li>
-                  <li><a class="menu" href="{{url('/busschedule')}}"> bus fare </a></li>
+									<li><a class="menu " href="{{url('/index')}}"> home </a></li>
+                  <li><a class="menu" href="{{url('/busfare')}}"> bus fare </a></li>
+                  <li><a class="menu active" href="{{url('/busschedule')}}"> bus schedule </a></li>
                   <li><a class="menu" href="{{url('/contact')}}"> contact </a></li>
-                  <li><a class="menu" href="{{url('/about')}}"> our services </a></li>
+                  <li><a class="menu" href="{{url('/about')}}"> about </a></li>
 
 					      </ul>
 					    </div><!-- /navbar-collapse -->
@@ -77,63 +77,6 @@
 							The need for such application to solve issues for not just one group but for everyone in Bermuda to have an idea of location for public transport.
 						</h4>
 
-						<div class="col-md-4 col-sm-6">
-							<div class="single-about-detail clearfix">
-								<div class="about-img">
-									<img class="img-responsive" src="/img/bdalogo2.png" alt="">
-								</div>
-
-								<div class="about-details">
-									<div class="pentagon-text">
-										<h1>B</h1>
-									</div>
-
-									<h3>Bus Schedule</h3>
-									<p>The bus schedule in for Bermuda public transportation is not large at all as we only have a few stops and the size of the island. </p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-4 col-sm-6">
-							<div class="single-about-detail">
-								<div class="about-img">
-									<img class="img-responsive" src=".jpg" alt="">
-								</div>
-
-								<div class="about-details">
-									<div class="pentagon-text">
-										<h1>B</h1>
-									</div>
-
-									<h3>Bus Fares</h3>
-									<p>In Bermuda you are not allowed to pay cash notes on the bus. The public transportation operates by tickets, tokens, and passes which can be purchased for a period of time.</p>
-								</div>
-							</div>
-						</div>
-
-
-						<div class="col-md-4 col-sm-6">
-							<div class="single-about-detail">
-								<div class="about-img">
-									<img class="img-responsive" src="jpg" alt="">
-								</div>
-
-								<div class="about-details">
-									<div class="pentagon-text">
-									<h1>A</h1>
-									</div>
-
-									<h3>About</h3>
-									<p>
-
-										Bermuda Transit was developed by a group of interns as a month long project.
-										The idea came about as in Bermuda our public transportation is not up to standard with majority of the world.
-										The need for such application to solve issues for not just one group but for everyone in Bermuda to have an idea of location for public transport.
-
-									</p>
-								</div>
-							</div>
-						</div>
 
 					</div>
 				</div>
@@ -145,55 +88,675 @@
 			<section class="service text-center" id="service">
 				<div class="container">
 					<div class="row">
-						<h2>our services</h2>
-						<h4>Bermuda Transit is Bermuda developed and deployed web application design, developed, and documented by a group of young IT Aspiring Bermudians</h4>
+						<h2>Bus Schedule</h2>
 
-						<div class="col-md-3 col-sm-6">
-							<div class="single-service">
-								<div class="single-service-img">
-									<div class="service-img">
-										<!-- <img class="heart img-responsive" src="img/service1.png" alt=""> -->
-									</div>
-								</div>
+            <table border="1", style="width:100%">
+  <thead><tr><th title="Field #1">Route 11: Hamilton - St. George&#39;s</th>
 
-								<h3>Bus Routes</h3>
-							</div>
-						</div>
 
-						<div class="col-md-3 col-sm-6">
-							<div class="single-service">
-								<div class="single-service-img">
-									<div class="service-img">
-										<img class="brain img-responsive" src=".png" alt="">
-									</div>
-								</div>
-								<h3>Bus Schedules</h3>
-							</div>
-						</div>
+  <th title="Field #5">FIELD5</th>
+  <th title="Field #6">FIELD6</th>
+  <th title="Field #7">FIELD7</th>
+  <th title="Field #8">FIELD8</th>
+  <th title="Field #9">FIELD9</th>
+  <th title="Field #10">FIELD10</th>
+  <th title="Field #11">FIELD11</th>
+  <th title="Field #12">FIELD12</th>
+  </tr></thead>
+  <tbody><tr><td> Via Blackwatch Pass, Aquarium and Blue Hole Hill Roundabout</td>
+  <!-- <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td> -->
+  </tr>
+  <tr><td>Monday to Friday</td>
+  <!-- <td> </td>
+  <td> </td>
+  <td> </td> -->
+  <td>Saturday</td>
+  <td> </td>
+  <td> </td>
+  <td>Sunday &amp; Holidays</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>Leave Hamilton</td>
+  <td> </td>
+  <td>Leave St. George&#39;s</td>
+  <td> </td>
+  <td>Leave Hamilton</td>
+  <td> </td>
+  <td>Leave St. George&#39;s</td>
+  <td>Leave Hamilton</td>
+  <td>Leave St.George&#39;s</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>6:45AM</td>
+  <td> </td>
+  <td>6:45AM</td>
+  <td> </td>
+  <td>6:45AM</td>
+  <td> </td>
+  <td>6:45AM</td>
+  <td>7:45AM</td>
+  <td>7:45AM</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>7:45</td>
+  <td> </td>
+  <td>7:00</td>
+  <td> </td>
+  <td>7:45</td>
+  <td> </td>
+  <td>7:45</td>
+  <td>8:45</td>
+  <td>8:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>8:00</td>
+  <td> </td>
+  <td>7:30</td>
+  <td> </td>
+  <td>8:30</td>
+  <td> </td>
+  <td>8:30</td>
+  <td>9:45</td>
+  <td>9:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>8:45</td>
+  <td> </td>
+  <td>7:45</td>
+  <td> </td>
+  <td>8:45</td>
+  <td> </td>
+  <td>8:45</td>
+  <td>10:45</td>
+  <td>10:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>9:00</td>
+  <td> </td>
+  <td>8:00-xp</td>
+  <td> </td>
+  <td>9:00</td>
+  <td> </td>
+  <td>9:00</td>
+  <td>11:45</td>
+  <td>11:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>9:45</td>
+  <td> </td>
+  <td>8:30</td>
+  <td> </td>
+  <td>9:15</td>
+  <td> </td>
+  <td>9:15</td>
+  <td>12:45PM</td>
+  <td>12:45PM</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>10:00</td>
+  <td> </td>
+  <td>8:45</td>
+  <td> </td>
+  <td>9:30</td>
+  <td> </td>
+  <td>9:30</td>
+  <td>1:45</td>
+  <td>1:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>10:15</td>
+  <td> </td>
+  <td>9:00</td>
+  <td> </td>
+  <td>9:45</td>
+  <td> </td>
+  <td>9:45</td>
+  <td>2:45</td>
+  <td>2:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>10:30</td>
+  <td> </td>
+  <td>9:15</td>
+  <td> </td>
+  <td>10:00</td>
+  <td> </td>
+  <td>10:00</td>
+  <td>3:45</td>
+  <td>3:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>10:45</td>
+  <td> </td>
+  <td>9:30</td>
+  <td> </td>
+  <td>10:15</td>
+  <td> </td>
+  <td>10:15</td>
+  <td>4:45</td>
+  <td>4:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>11:00</td>
+  <td> </td>
+  <td>9:45</td>
+  <td> </td>
+  <td>10:30</td>
+  <td> </td>
+  <td>10:30</td>
+  <td>5:45</td>
+  <td>5:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>11:15</td>
+  <td> </td>
+  <td>10:00</td>
+  <td> </td>
+  <td>10:45</td>
+  <td> </td>
+  <td>10:45</td>
+  <td>6:45</td>
+  <td>6:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>11:30</td>
+  <td> </td>
+  <td>10:15</td>
+  <td> </td>
+  <td>11:00</td>
+  <td> </td>
+  <td>11:00</td>
+  <td>7:45</td>
+  <td>7:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>11:45</td>
+  <td> </td>
+  <td>10:30</td>
+  <td> </td>
+  <td>11:15</td>
+  <td> </td>
+  <td>11:15</td>
+  <td>8:45</td>
+  <td>8:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>12:00PM</td>
+  <td> </td>
+  <td>10:45</td>
+  <td> </td>
+  <td>11:30</td>
+  <td> </td>
+  <td>11:30</td>
+  <td>9:45</td>
+  <td>9:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>12:30</td>
+  <td> </td>
+  <td>11:00</td>
+  <td> </td>
+  <td>11:45</td>
+  <td> </td>
+  <td>11:45</td>
+  <td>10:45</td>
+  <td>10:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>12:45</td>
+  <td> </td>
+  <td>11:15</td>
+  <td> </td>
+  <td>12:00PM</td>
+  <td> </td>
+  <td>12:00PM</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>1:00</td>
+  <td> </td>
+  <td>11:30</td>
+  <td> </td>
+  <td>12:30</td>
+  <td> </td>
+  <td>12:30</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>1:15</td>
+  <td> </td>
+  <td>11:45</td>
+  <td> </td>
+  <td>12:45</td>
+  <td> </td>
+  <td>12:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>1:30</td>
+  <td> </td>
+  <td>12:00PM</td>
+  <td> </td>
+  <td>1:00</td>
+  <td> </td>
+  <td>1:00</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>1:45</td>
+  <td> </td>
+  <td>12:30</td>
+  <td> </td>
+  <td>1:30</td>
+  <td> </td>
+  <td>1:30</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>2:00</td>
+  <td> </td>
+  <td>12:45</td>
+  <td> </td>
+  <td>1:45</td>
+  <td> </td>
+  <td>1:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>2:15</td>
+  <td> </td>
+  <td>1:00</td>
+  <td> </td>
+  <td>2:00</td>
+  <td> </td>
+  <td>2:00</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>2:30</td>
+  <td> </td>
+  <td>1:30</td>
+  <td> </td>
+  <td>2:30</td>
+  <td> </td>
+  <td>2:30</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>2:45</td>
+  <td> </td>
+  <td>1:45</td>
+  <td> </td>
+  <td>2:45</td>
+  <td> </td>
+  <td>2:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>3:00</td>
+  <td> </td>
+  <td>2:00</td>
+  <td> </td>
+  <td>3:00</td>
+  <td> </td>
+  <td>3:00</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>3:15</td>
+  <td> </td>
+  <td>2:30-br</td>
+  <td> </td>
+  <td>3:30</td>
+  <td> </td>
+  <td>3:30</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>3:30</td>
+  <td> </td>
+  <td>2:45-br</td>
+  <td> </td>
+  <td>3:45</td>
+  <td> </td>
+  <td>3:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>3:45</td>
+  <td> </td>
+  <td>3:00</td>
+  <td> </td>
+  <td>4:00</td>
+  <td> </td>
+  <td>4:00</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>4:00</td>
+  <td> </td>
+  <td>3:30</td>
+  <td> </td>
+  <td>4:30</td>
+  <td> </td>
+  <td>4:30</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>4:25</td>
+  <td> </td>
+  <td>4:00</td>
+  <td> </td>
+  <td>4:45</td>
+  <td> </td>
+  <td>4:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>4:35</td>
+  <td> </td>
+  <td>4:30</td>
+  <td> </td>
+  <td>5:00</td>
+  <td> </td>
+  <td>5:00</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>4:45</td>
+  <td> </td>
+  <td>5:00</td>
+  <td> </td>
+  <td>5:10</td>
+  <td> </td>
+  <td>5:30</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>4:55</td>
+  <td> </td>
+  <td>5:30</td>
+  <td> </td>
+  <td>5:30</td>
+  <td> </td>
+  <td>5:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>5:05</td>
+  <td> </td>
+  <td>5:45</td>
+  <td> </td>
+  <td>5:45</td>
+  <td> </td>
+  <td>6:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>5:10-xp</td>
+  <td> </td>
+  <td>6:45</td>
+  <td> </td>
+  <td>6:45</td>
+  <td> </td>
+  <td>7:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>5:25-sd</td>
+  <td> </td>
+  <td>7:45</td>
+  <td> </td>
+  <td>7:45</td>
+  <td> </td>
+  <td>8:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>5:35</td>
+  <td> </td>
+  <td>8:45</td>
+  <td> </td>
+  <td>8:45</td>
+  <td> </td>
+  <td>9:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>5:45</td>
+  <td> </td>
+  <td>9:45</td>
+  <td> </td>
+  <td>9:45</td>
+  <td> </td>
+  <td>10:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>6:45</td>
+  <td> </td>
+  <td>10:45</td>
+  <td> </td>
+  <td>11:45</td>
+  <td> </td>
+  <td>11:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>7:45</td>
+  <td> </td>
+  <td>11:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>8:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>9:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>10:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr><td>11:45</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
 
-						<div class="col-md-3 col-sm-6">
-							<div class="single-service">
-								<div class="single-service-img">
-									<div class="service-img">
-										<img class="knee img-responsive" src=".png" alt="">
-									</div>
-								</div>
 
-								<h3>Efficiency in Public Transport</h3>
-							</div>
-						</div>
+  </tbody>
+</table>
 
-						<div class="col-md-3 col-sm-6">
-							<div class="single-service">
-								<div class="single-service-img">
-									<div class="service-img">
-										<img class="bone img-responsive" src=".png" alt="">
-									</div>
-								</div>
+  <p>
+    <h3> Legend </h3>
+    <li>
+      <ul>sd - Trip operates direct from Hamilton to St. Davids; then continues to St. George&#39;s</ul>
+      <ul>br - Trip operates via Berkely Road school route; does not serve blackwatch Pass or Tennis Stadium</ul>
+      <ul>xp - Trip operates express between Shelly Bay Plaza and Hamilton </ul>
+    </li>
+  </p>
 
-								<h3>Better source for Public Transport information</h3>
-							</div>
-						</div>
+    <h3> Average Running Times </h3>
+  <p>
+      After 7:00PM, the average running time between Hamilton and St. George&#39;s terminal is 5-8 minutes less
+  </p>
+  <hr/>
+  <p>
+    From Hamilton to: Aquarium - 20 mins, Blue Hole - 30 mins, Southside - 38 mins , St.Georges - 50 mins.
+  </p>
+  <hr/>
+  <p>
+    From St.Georges to: St.Georges - 4 mins, Southside - 12 mins, Blue Hole Hill - 20 mins, Aquarium - 30 mins, Hamilton - 50 mins.
+  </p>
+
+
+
+
+
 					</div>
 				</div>
 			</section><!-- end of service section -->
@@ -201,11 +764,11 @@
 
 			<!-- team section -->
 
-			<section class="team" id="team">
+			<!-- <section class="team" id="team">
 				<div class="container">
 				      <img src="/TLF2015.jpg" alt="Logo">
-				</div>
-			</section><!-- end of team section -->
+				</div> -->
+			<!-- </section><!-- end of team section -->
 
 			<!-- map section -->
 			<section class="api-map" id="contact">
@@ -235,6 +798,9 @@
 										<ul><li><i class="fa fa-envelope"></i><span>Email:</span> info@tlfbdatransit.com</li></ul>
 									</div>
 								</div>
+
+
+
 
 
 								<div class="col-md-6 col-md-offset-1 contact-form">

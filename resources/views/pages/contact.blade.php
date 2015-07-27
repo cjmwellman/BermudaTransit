@@ -16,7 +16,7 @@
       <div class="row">
         <div class="col-xs-5 header-logo">
           <br>
-          <a href="index.html"><img src="/img/bdalogo2.png" alt="" class="img-responsive logo"></a>
+          <a href="index.html"><img src="/img/bdatranlogo.png" alt="" class="img-responsive logo"></a>
         </div>
 
         <div class="col-md-7">
@@ -41,7 +41,7 @@
                   <li><a class="menu" href="{{url('/busfare')}}"> bus schedule </a></li>
                   <li><a class="menu" href="{{url('/busschedule')}}"> bus fare </a></li>
                   <li><a class="menu active" href="{{url('/contact')}}"> contact </a></li>
-                  <li><a class="menu" href="{{url('/about')}}"> our services </a></li>
+                  <li><a class="menu" href="{{url('/about')}}"> about us </a></li>
 
                 </ul>
               </div><!-- /navbar-collapse -->
@@ -66,7 +66,7 @@
       <div class="col-md-4 col-sm-6">
         <div class="single-about-detail clearfix">
           <div class="about-img">
-            <img class="img-responsive" src="/img/bdalogo2.png" alt="">
+            <img class="img-responsive" src="/img/TLF2015.jpg" alt="">
           </div>
 
           <div class="about-details">
@@ -101,7 +101,7 @@
       <div class="col-md-4 col-sm-6">
         <div class="single-about-detail">
           <div class="about-img">
-            <img class="img-responsive" src="img/item3.jpg" alt="">
+            <img class="img-responsive" src="img/TLF.jpg" alt="">
           </div>
 
           <div class="about-details">
@@ -113,6 +113,7 @@
             <p>
               Without the organisation and contiues review of the internship from the TLF Board, Alumni, and Sponsors.
               This program will not be able to be as successful as it is and give back to Bermuda, grow and get better each year.
+              The TLF internship is a great opportunity for young aspiring IT individuals to get in.
 
             </p>
           </div>
@@ -126,134 +127,72 @@
 
 <!-- service section starts here -->
 
-<section class="service text-center" id="service">
+<!-- <section class="service text-center" id="service">
   <div class="container">
     <div class="row">
-      <h2>our services</h2>
-      <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</h4>
 
-      <div class="col-md-3 col-sm-6">
-        <div class="single-service">
-          <div class="single-service-img">
-            <div class="service-img">
-              <!-- <img class="heart img-responsive" src="img/service1.png" alt=""> -->
-            </div>
-          </div>
-
-          <h3>Bus Schedule</h3>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="single-service">
-          <div class="single-service-img">
-            <div class="service-img">
-              <img class="brain img-responsive" src="img/service2.png" alt="">
-            </div>
-          </div>
-          <h3>Bus Routes</h3>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="single-service">
-          <div class="single-service-img">
-            <div class="service-img">
-              <img class="knee img-responsive" src="img/service3.png" alt="">
-            </div>
-          </div>
-
-          <h3>Bus Fares</h3>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="single-service">
-          <div class="single-service-img">
-            <div class="service-img">
-              <img class="bone img-responsive" src="img/service4.png" alt="">
-            </div>
-          </div>
-
-          <h3>Efficient Public Transport</h3>
-        </div>
-      </div>
     </div>
   </div>
-</section><!-- end of service section -->
+</section> -->
+<!-- end of service section -->
 
+<hr/>
 
 <!-- team section -->
 
 <section class="team" id="team">
-  <div class="container">
-    <div class="row">
-      <div class="team-heading text-center">
-        <h2>our team</h2>
+  <div class="container" >
+    <div class="row" >
+      <div class="team-heading text-center" >
 
+        <h2>our team</h2>
         <h4>This is the team for the 2015 TLF Internship program over the summer. This application was developed by the students of the internship, with the assistance of TLF alumni.</h4>
       </div>
 
       <div class="col-md-2 single-member col-sm-4">
         <div class="person">
-          <img class="img-responsive" src="img/member1.jpg" alt="member-1">
+          <img class="img-responsive" src="img/TLF2015.jpg" alt="member-1">
         </div>
-
-        <div class="person-detail">
-          <div class="arrow-bottom"></div>
-          <h3>Charnae Richardson</h3>
-          <p>
-            The project manager for the given time of the project, data collection, and documentation.
-            She is studying at the Bermuda College, and looking to further her education abroad.
-
-          </p>
-        </div>
-
-      </div>
-
-      <div class="col-md-2 single-member col-sm-4">
-
-        <div class="person-detail">
-          <div class="arrow-top"></div>
-          <h3>Yuzaire Bean</h3>
-          <p>
-            Data collector, communicator, played a role in assisting development of web application project.
-            Graduated from Compu College in Canada, with networking certifications.
-
-          </p>
-        </div>
-
-        <div class="person">
-          <img class="img-responsive" src="img/member2.jpg" alt="member-2">
-        </div>
-      </div>
-
-      <div class="col-md-2 single-member col-sm-4">
-        <div class="person">
-          <img class="img-responsive" src="img/member3.jpg" alt="member-3">
-        </div>
-
         <div class="person-detail">
           <div class="arrow-bottom"></div>
           <h3>Alexis Burgess</h3>
-          <p>
-            Project management, documentation, collection of data, and assist with development of project.
-            Currently in her third year of college studying Business & IT.
-          </p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
         </div>
       </div>
+
+
+      <div class="col-md-2 single-member col-sm-4">
+        <div class="person-detail">
+          <div class="arrow-top"></div>
+          <h3>Yuzaire Bean</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+        </div>
+        <div class="person">
+          <img class="img-responsive" src="img/TLF2015.jpg" alt="member-2">
+        </div>
+      </div>
+
+
+      <div class="col-md-2 single-member col-sm-4">
+        <div class="person">
+          <img class="img-responsive" src="img/TLF2015.jpg" alt="member-3">
+        </div>
+        <div class="person-detail">
+          <div class="arrow-bottom"></div>
+          <h3>Charnae Richardson</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+        </div>
+      </div>
+
 
       <div class="col-md-2 single-member col-sm-4">
         <div class="person-detail">
           <div class="arrow-top"></div>
           <h3>Chris Wellman</h3>
-          <p>
-            Software engineneer for the project, assisted in collection of the data, documentation in report.
-            Looking to continue on with software development and gain maximum experience.
-          </p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
         </div>
         <div class="person">
-          <img class="img-responsive" src="img/member4.jpg" alt="member-4">
+          <img class="img-responsive" src="img/TLF2015.jpg" alt="member-4">
         </div>
       </div>
 

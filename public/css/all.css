@@ -4,6 +4,7 @@ body{padding-top:100px}
 
 .checkbox label,body,label{font-weight:300}
 
+table,th{text-align: center;}
 
 body{
 	margin: 0;
@@ -20,13 +21,13 @@ a:hover, a:visited, a{
 h1, h2{
 	text-transform: uppercase;
 	font-weight: bold;
-	color:blue;
+	color: #42b3e5;
 }
 
 
 /*header area*/
 .top-header{
-	background: ; !important;
+	background: #fff ; !important;
 	position: fixed;
 	width: 100%;
 	z-index: 99999;
@@ -183,6 +184,8 @@ li a.active{
 }
 
 /*about area*/
+
+
 .about h2{
 	font-size: 60px;
 	color: #42b3e5;
@@ -804,7 +807,7 @@ responsive area
 		margin-top: 20px !important;
 	}
 	.navbar-default .navbar-toggle {
-		 border-color: #fff;
+		 border-color: #FFF;
 		 margin-top: -7px;
 		 right: 10%;
 	}

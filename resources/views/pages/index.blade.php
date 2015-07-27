@@ -18,10 +18,10 @@
 			<div class="row">
 				<div class="col-xs-5 header-logo">
 					<br>
-					<a href="index.html"><img src="img/TLFGroup.jpg" alt="" class="img-responsive logo"></a>
+					<a href="index.html"><img src="img/bdalogo2.png" alt="" class="img-responsive logo"></a>
 				</div>
 
-				<div class="col-md-7">
+				 <div class="col-md-7">
 					<nav class="navbar navbar-default">
 					  <div class="container-fluid nav-bar">
 					    <!-- Brand and toggle get grouped for better mobile display -->
@@ -38,20 +38,20 @@
 					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 					      <ul class="nav navbar-nav navbar-right">
-									<li><a class="menu active" href="{{url('/index')}}"> home </a></li>
-                  <li><a class="menu" href="{{url('/busfare')}}"> bus schedule </a></li>
-                  <li><a class="menu" href="{{url('/busschedule')}}"> bus fare </a></li>
-                  <li><a class="menu" href="{{url('/contact')}}"> contact </a></li>
-                  <li><a class="menu" href="{{url('/about')}}"> our services </a></li>
-
+					        <li><a class="menu active" href="{{url('/index')}}"> home </a></li>
+					        <li><a class="menu" href="{{url('/busfare')}}">bus fare</a></li>
+					        <li><a class="menu" href="{{url('/busschedule')}}"> bus schedule </a></li>
+					        <li><a class="menu" href="{{url('/contact')}}">contact us</a></li>
+					        <li><a class="menu" href="{{url('/about')}}"> about us</a></li>
 					      </ul>
-					    </div><!-- /navbar-collapse -->
-					  </div><!-- / .container-fluid -->
-					</nav>
+					    </div> <!-- /navbar-collapse -->
+					  </div> <!--  / .container-fluid -->
+					 </nav>
 				</div>
 			</div>
 		</div>
-	</header> <!-- end of header area -->
+	 </header> <!-- end of header area-->
+
 
 
 
@@ -80,7 +80,7 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="single-about-detail clearfix">
 								<div class="about-img">
-									<img class="img-responsive" src="/img/bdalogo2.png" alt="">
+									<img class="img-responsive" src="/img/.png" alt="">
 								</div>
 
 								<div class="about-details">
@@ -142,7 +142,7 @@
 
 			<!-- service section starts here -->
 
-			<section class="service text-center" id="service">
+			<!-- <section class="service text-center" id="service">
 				<div class="container">
 					<div class="row">
 						<h2>How To Ride</h2>
@@ -176,7 +176,7 @@
 						</div>
 					</div>
 				</div>
-			</section><!-- end of service section -->
+			</section><!-- end of service section --> -->
 
 
 			<!-- team section -->
@@ -185,6 +185,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="team-heading text-center">
+
 							<h2>our team</h2>
 							<h4>This is the team for the 2015 TLF Internship program over the summer. This application was developed by the students of the internship, with the assistance of TLF alumni.</h4>
 						</div>
@@ -250,43 +251,59 @@
 				</div>
 			</section><!-- end of map section -->
 
-			<!-- contact section starts here -->
-			<section class="contact">
+		<!--	how to ride section starts here -->
+			 <section class="contact">
 				<div class="container">
 					<div class="row">
 							<div class="contact-caption clearfix">
 								<div class="contact-heading text-center">
-									<h2>contact us</h2>
+									<h2>How To Ride</h2>
 								</div>
-
-								<div class="col-md-5 contact-info text-left">
-									<h3>contact information</h3>
-									<div class="info-detail">
-										<ul><li><i class="fa fa-calendar"></i><span>Monday - Friday:</span> 9:30 AM to 6:30 PM</li></ul>
-										<ul><li><i class="fa fa-map-marker"></i><span>Address:</span> 123 Some Street , Hamilton, BDA, HM 123</li></ul>
-										<ul><li><i class="fa fa-phone"></i><span>Phone:</span> (441) 987-1235</li></ul>
-										<ul><li><i class="fa fa-fax"></i><span>Fax:</span> (441) 984-1234</li></ul>
-										<ul><li><i class="fa fa-envelope"></i><span>Email:</span> info@tlfbdatransit.com</li></ul>
-									</div>
-								</div>
-
-
-								<div class="col-md-6 col-md-offset-1 contact-form">
-									<h3>leave us a message</h3>
-
-									<form class="form">
-										<input class="name" type="text" placeholder="Name">
-										<input class="email" type="email" placeholder="Email">
-										<input class="phone" type="text" placeholder="Phone No:">
-										<textarea class="message" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-										<input class="submit-btn" type="submit" value="SUBMIT">
-									</form>
-								</div>
-
 							</div>
 					</div>
-				</div>
-			</section><!-- end of contact section -->
+					<h2> Poles </h2>
+					<h3>
+						A bus stop is identified by a pink or blue pole which indicates the direction that the bus will be headed.
+						 Pink poles signify that the bus will be travelling into the City of Hamilton and blue poles signify that the bus will be travelling  out of the City of Hamilton.
+					</h3>
+
+					<hr/>
+
+					<h2> Fare </h2>
+					<h3>
+					 If you would like to pay your fare by cash, please ensure that you have exact change before boarding the bus.
+					 Dollar bills are not accepted. Place your fare directly into the fare-box as you enter the bus. Do not give your fare to the bus operator.
+					 Bus operators do not make change for passengers, do not handle fares, and do not deposit money in the fare-box.
+				 </h3>
+				 <hr/>
+				 <h2> Using Bus Transfers </h2>
+				 <h3>
+
+					 <p>
+
+			       Before boarding a bus, be sure to read the front destination sign to ensure that you are travelling in the right direction and on the correct route.
+			       You may need to change buses to get to your final destination. If you are traveling from Hamilton to St. David's you may have to change buses at the entrance to St. Davidís.
+
+			     </p>
+
+			     <p>
+
+			       The destination sign on the side of the bus displays the second portion of work that the bus will complete.
+			       If this is contrary to your final destination, you must ask for a transfer at the time of paying the fare.
+			       A transfer is a small slip of paper that indicates the time the transfer is to be made, and the zone of the final destination.
+			       It is used for a continuous journey and does not allow for a stop-over.
+			       It will display a 15 minute timeframe in which you must catch your connecting bus.
+			       If a transfer has expired, you will be required to pay the fare to your destination
+			       unless you are travelling at a time when the buses are not travelling in 15 minute intervals.
+
+			     </p>
+
+				 </h3>
+
+
+
+			 </div>
+			</section><!-- end of how to ride section -->
 
 
 			<!-- footer starts here -->
