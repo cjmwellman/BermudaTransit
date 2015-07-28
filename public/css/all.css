@@ -27,7 +27,7 @@ h1, h2{
 
 /*header area*/
 .top-header{
-	background: #fff ; !important;
+	background:#FFF ; !important;
 	position: fixed;
 	width: 100%;
 	z-index: 99999;
@@ -47,7 +47,7 @@ h1, h2{
 	margin:auto;
 }
 .top-header img.logo{
-	margin-bottom: 25px;
+	margin-bottom: 0px;
 	margin-top: 0;
 	transition:all .5s ease 0s;
   -webkit-transition:all .5s ease 0s;
@@ -59,7 +59,7 @@ h1, h2{
   background-color: transparent;
   border-color: transparent;
   margin-bottom: 0;
-  margin-top: 8px;
+  margin-top: 5px;
   transition:all .5s ease 0s;
   -webkit-transition:all .5s ease 0s;
   -moz-transition:all .5s ease 0s;
@@ -479,6 +479,7 @@ li a.active{
 /*contact section*/
 .contact-caption{
 	background: #3a9dca;
+	background:skyblue;
 }
 .contact-heading h2{
 	color: #fff;
@@ -585,7 +586,8 @@ li a.active{
 	margin-top: 0px;
 	left: 0;
 	margin-top: -830px;
-	background: rgba(0, 0, 0, 0.51);
+	/*background: rgba(0, 0, 0, 0.51);*/
+	background-color:skyblue;
 }
 .contact-caption{
 	margin-top: 120px;

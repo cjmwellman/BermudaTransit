@@ -68,7 +68,7 @@
 
 			<!-- about section -->
 			<section class="about text-center" id="about">
-				<div class="container">
+				<div class="container" style="margin-top:110px">
 					<div class="row">
 						<h2> Fares </h2>
 					</div>
@@ -282,7 +282,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-6 footer-para">
-							<p>&copy;TLF Internship & BDApp Innovations</p>
+							<p>&copy;2015 TLF Internship & BDApp Innovations</p>
 						</div>
 
 						<div class="col-xs-6 text-right">

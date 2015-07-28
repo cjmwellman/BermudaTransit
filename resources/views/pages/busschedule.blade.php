@@ -68,14 +68,14 @@
 
 			<!-- about section -->
 			<section class="about text-center" id="about">
-				<div class="container">
+				<div class="container" style="margin-top:110px">
 					<div class="row">
-						<h2>Bermuda Transit</h2>
+						<!-- <h2>Bermuda Transit</h2>
 						<h4>
 							Bermuda Transit was developed by a group of interns as a month long project.
 							The idea came about as in Bermuda our public transportation is not up to standard with majority of the world.
 							The need for such application to solve issues for not just one group but for everyone in Bermuda to have an idea of location for public transport.
-						</h4>
+						</h4> -->
 
 
 					</div>
@@ -92,8 +92,10 @@
 
             <table border="1", style="width:100%">
   <thead><tr><th title="Field #1">Route 11: Hamilton - St. George&#39;s</th>
-
-
+  <th title="Field #1">FIELD5</th>
+  <th title="Field #2">FIELD5</th>
+  <th title="Field #3">FIELD5</th>
+  <th title="Field #4">FIELD5</th>
   <th title="Field #5">FIELD5</th>
   <th title="Field #6">FIELD6</th>
   <th title="Field #7">FIELD7</th>
@@ -129,8 +131,8 @@
   <td> </td>
   </tr>
   <tr><td>Leave Hamilton</td>
-  <td> </td>
   <td>Leave St. George&#39;s</td>
+  <td> </td>
   <td> </td>
   <td>Leave Hamilton</td>
   <td> </td>
@@ -826,7 +828,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-6 footer-para">
-							<p>&copy;TLF Internship & BDApp Innovations</p>
+							<p>&copy;2015 TLF Internship & BDApp Innovations</p>
 						</div>
 
 						<div class="col-xs-6 text-right">

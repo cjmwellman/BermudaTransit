@@ -55,14 +55,71 @@
 <!-- about section -->
 <section class="about text-center" id="about">
   <div class="container">
-    <div class="row">
-      <h2>about us</h2>
-      <h4>Something about the TLF</h4>
+    <div class="row" style="margin-top:200px">
+      <!-- <h2>about us</h2>
+      <h4>Something about the TLF</h4> -->
 
-      <img class="brain img-responsive" src="img/TLFGroup.jpg" alt="TLF 2015 Interns" style="position:center">
+      <!-- <img class="brain img-responsive" src="img/TLFGroup.jpg" alt="TLF 2015 Interns" style="position:center"> -->
+      <div class="col-md-4 col-sm-6">
+        <div class="single-about-detail clearfix">
+          <div class="about-img">
+            <img class="img-responsive" src="/img/TLF2015.jpg" alt="">
+          </div>
+
+          <div class="about-details">
+            <div class="pentagon-text">
+              <h1>T</h1>
+            </div>
+
+            <h3> Technology Leadership Forum </h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
 
 
+          </div>
+        </div>
+      </div>
 
+      <div class="col-md-4 col-sm-6">
+        <div class="single-about-detail">
+          <div class="about-img">
+            <img class="img-responsive" src="img/TLFGroup.jpg" alt="Technology Leadership Forum 2015 Group">
+          </div>
+
+          <div class="about-details">
+            <div class="pentagon-text">
+              <h1>B</h1>
+            </div>
+
+            <h3> Bermuda Transit </h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-4 col-sm-6">
+        <div class="single-about-detail">
+          <div class="about-img">
+            <img class="img-responsive" src="img/TLF.jpg" alt="">
+          </div>
+
+          <div class="about-details">
+            <div class="pentagon-text">
+              <h1>M</h1>
+            </div>
+
+            <h3>TLF Board</h3>
+            <p>
+              Without the organisation and contiues review of the internship from the TLF Board, Alumni, and Sponsors.
+              This program will not be able to be as successful as it is and give back to Bermuda, grow and get better each year.
+              The TLF internship is a great opportunity for young aspiring IT individuals to get in.
+
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section><!-- end of about section -->
@@ -71,57 +128,31 @@
 <!-- service section starts here -->
 
 <section class="service text-center" id="service">
-  <div class="container">
+  <div class="container" style="margin-top:100px">
     <div class="row">
-      <h2>our services</h2>
-      <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</h4>
+      <h2>Technology Leadership Forum</h2>
 
-      <div class="col-md-3 col-sm-6">
-        <div class="single-service">
-          <div class="single-service-img">
-            <div class="service-img">
-              <!-- <img class="heart img-responsive" src="img/service1.png" alt=""> -->
-            </div>
-          </div>
+      <h4>
+        Founded in 2007, the TLF is a 12-13 week paid summer internship programme that provides students with a major in IT and students interested in IT the opportunity to learn more about IT and it’s different areas.
+        The TLF also allows graduates of IT to meet other professionals within the IT field and gain experience in the IT world so that they can become closer to acquiring a job.
+        Other IT professionals can see the upcoming IT talent in Bermuda and get a head start in hiring those that will be available in the market.
+        A networking event hosted by the TLF and current interns each summer provides a perfect opportunity for the interns and professionals of IT, as well as other students, to gain that advantage.
+      </h4>
 
-          <h3>Heart problem</h3>
-        </div>
-      </div>
+      <h4>
+        The TLF allows students of the summer internship to build leadership skills with a summer group project, which they then present to the board at the end of the programme.
+        Each member of the internship programme is placed at an IT company based in Bermuda so they can work in the IT world and gain experience within the different IT areas.
+        Along with working in the IT world, each intern is given a mentor from the board to help guide and assist them throughout the internship programme. Each month there is also a weeklong training period where instructors or IT professionals teach the students more in depth about working in the IT world, networking and other areas of IT.
+        The following week there is a short exam.
+      </h4>
 
-      <div class="col-md-3 col-sm-6">
-        <div class="single-service">
-          <div class="single-service-img">
-            <div class="service-img">
-              <img class="brain img-responsive" src="img/service2.png" alt="">
-            </div>
-          </div>
-          <h3>brain problem</h3>
-        </div>
-      </div>
+      <h4>
+        Overall, the TLF is a great opportunity for those students and graduates interested in
+        IT to gain a great deal of experience & knowledge and position themselves in the right place in order gain a career in the world of IT.
+      </h4>
 
-      <div class="col-md-3 col-sm-6">
-        <div class="single-service">
-          <div class="single-service-img">
-            <div class="service-img">
-              <img class="knee img-responsive" src="img/service3.png" alt="">
-            </div>
-          </div>
 
-          <h3>knee problem</h3>
-        </div>
-      </div>
 
-      <div class="col-md-3 col-sm-6">
-        <div class="single-service">
-          <div class="single-service-img">
-            <div class="service-img">
-              <img class="bone img-responsive" src="img/service4.png" alt="">
-            </div>
-          </div>
-
-          <h3>human bones problem</h3>
-        </div>
-      </div>
     </div>
   </div>
 </section><!-- end of service section -->
@@ -133,7 +164,7 @@
   <div class="container">
     <div class="row">
       <div class="team-heading text-center">
-        <h2>our team</h2>
+        <h2>BermudaTransit</h2>
 
         <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</h4>
       </div>
@@ -154,42 +185,16 @@
 </section><!-- end of map section -->
 
 <!-- contact section starts here -->
-<section class="contact">
+ <section class="contact">
   <div class="container">
     <div class="row">
-        <div class="contact-caption clearfix">
-          <div class="contact-heading text-center">
-            <h2>contact us</h2>
-          </div>
-
-          <div class="col-md-5 contact-info text-left">
-            <h3>contact information</h3>
-            <div class="info-detail">
-              <ul><li><i class="fa fa-calendar"></i><span>Monday - Friday:</span> 9:30 AM to 6:30 PM</li></ul>
-              <ul><li><i class="fa fa-map-marker"></i><span>Address:</span> 123 Some Street , London, UK, CP 123</li></ul>
-              <ul><li><i class="fa fa-phone"></i><span>Phone:</span> (032) 987-1235</li></ul>
-              <ul><li><i class="fa fa-fax"></i><span>Fax:</span> (123) 984-1234</li></ul>
-              <ul><li><i class="fa fa-envelope"></i><span>Email:</span> info@doctor.com</li></ul>
-            </div>
-          </div>
 
 
-          <div class="col-md-6 col-md-offset-1 contact-form">
-            <h3>leave us a message</h3>
 
-            <form class="form">
-              <input class="name" type="text" placeholder="Name">
-              <input class="email" type="email" placeholder="Email">
-              <input class="phone" type="text" placeholder="Phone No:">
-              <textarea class="message" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-              <input class="submit-btn" type="submit" value="SUBMIT">
-            </form>
-          </div>
-
-        </div>
     </div>
   </div>
-</section><!-- end of contact section -->
+</section>
+<!-- end of contact section -->
 
 
 <!-- footer starts here -->
@@ -197,7 +202,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-6 footer-para">
-        <p>&copy;TLF Internship & BDApp Innovations</p>
+        <p>&copy;2015 TLF Internship & BDApp Innovations</p>
       </div>
 
       <div class="col-xs-6 text-right">

@@ -52,88 +52,79 @@
 		</div>
 	 </header> <!-- end of header area-->
 
-
-
-
-
+<!-- slider area-->
 			<section class="slider" id="home">
 			<div class="container-fluid">
-					<div class="row">
+					<div class="row" style="margin-top:50px">
+						<div id="carouselHacked" class="carousel slide carousel-fade" data-ride="carousel">
+						<div class="header-backup"></div>
+								<!-- Wrapper for slides -->
+								<div class="carousel-inner" role="listbox">
 
+										<div class="item active">
+											<img src="img/TLF2015.jpg" alt="">
+												<div class="carousel-caption">
+													<h1>providing</h1>
+													<p>highquality service for locals & tourists</p>
+													<button>learn more</button>
+												</div>
+										</div>
 
-					</div>
+										<div class="item">
+											<img src="img/TLF" alt="">
+												<div class="carousel-caption">
+													<h1>providing</h1>
+													<p>highquality service for locals & tourists</p>
+													<button>learn more</button>
+												</div>
+										</div>
+
+										<div class="item">
+											<img src="img/TLFGroup.jpg" alt="">
+												<div class="carousel-caption">
+													<h1>BermudaTransit</h1>
+													<p>highquality service for locals & tourists</p>
+													<button>learn more</button>
+												</div>
+										</div>
+								</div>
+
+								<!-- Controls -->
+								<!-- <a class="left carousel-control" href="#carouselHacked" role="button" data-slide="prev">
+										<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+								</a>
+								<a class="right carousel-control" href="#carouselHacked" role="button" data-slide="next">
+										<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+								</a> -->
+						</div>
+
 				</div>
+			</div>
 			</section><!-- end of slider section -->
 
+		<hr/>
 
 			<!-- about section -->
 			<section class="about text-center" id="about">
 				<div class="container">
-					<div class="row">
+					<div class="row" style="margin-top:0px">
 						<h2>Bermuda Transit</h2>
 						<h4>
 							Bermuda Transit was developed by a group of interns as a month long project.
 							The idea came about as in Bermuda our public transportation is not up to standard with majority of the world.
 							The need for such application to solve issues for not just one group but for everyone in Bermuda to have an idea of location for public transport.
+
+							The bus schedule in for Bermuda public transportation is not large at all as we only have a few stops and the size of the island.
+
+							In Bermuda you are not allowed to pay cash notes on the bus. The public transportation operates by tickets, tokens, and passes which can be purchased for a period of time.
+
+							Bermuda Transit was developed by a group of interns as a month long project
+							The idea came about as in Bermuda our public transportation is not up to standard with majority of the world.
+							The need for such application to solve issues for not just one group but for everyone in Bermuda to have an idea of location for public transport.
+
 						</h4>
-
-						<div class="col-md-4 col-sm-6">
-							<div class="single-about-detail clearfix">
-								<div class="about-img">
-									<img class="img-responsive" src="/img/.png" alt="">
-								</div>
-
-								<div class="about-details">
-									<div class="pentagon-text">
-										<h1>B</h1>
-									</div>
-
-									<h3>Bus Schedule</h3>
-									<p>The bus schedule in for Bermuda public transportation is not large at all as we only have a few stops and the size of the island. </p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-4 col-sm-6">
-							<div class="single-about-detail">
-								<div class="about-img">
-									<img class="img-responsive" src="img/item2.jpg" alt="">
-								</div>
-
-								<div class="about-details">
-									<div class="pentagon-text">
-										<h1>B</h1>
-									</div>
-
-									<h3>Bus Fares</h3>
-									<p>In Bermuda you are not allowed to pay cash notes on the bus. The public transportation operates by tickets, tokens, and passes which can be purchased for a period of time.</p>
-								</div>
-							</div>
-						</div>
-
-
-						<div class="col-md-4 col-sm-6">
-							<div class="single-about-detail">
-								<div class="about-img">
-									<img class="img-responsive" src="img/item3.jpg" alt="">
-								</div>
-
-								<div class="about-details">
-									<div class="pentagon-text">
-									<h1>A</h1>
-									</div>
-
-									<h3>About</h3>
-									<p>
-
-										Bermuda Transit was developed by a group of interns as a month long project.
-										The idea came about as in Bermuda our public transportation is not up to standard with majority of the world.
-										The need for such application to solve issues for not just one group but for everyone in Bermuda to have an idea of location for public transport.
-
-									</p>
-								</div>
-							</div>
-						</div>
 
 					</div>
 				</div>
@@ -176,7 +167,7 @@
 						</div>
 					</div>
 				</div>
-			</section><!-- end of service section --> -->
+			</section><!-- end of service section -->
 
 
 			<!-- team section -->
@@ -311,7 +302,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-6 footer-para">
-							<p>&copy;TLF Internship & BDApp Innovations</p>
+							<p>&copy;2015 TLF Internship & BDApp Innovations</p>
 						</div>
 
 						<div class="col-xs-6 text-right">

@@ -59,66 +59,9 @@
 
 
   <div class="container">
-    <div class="row">
+    <div class="row" style="margin-top:112px">
       <h2>contact us</h2>
       <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</h4>
-
-      <div class="col-md-4 col-sm-6">
-        <div class="single-about-detail clearfix">
-          <div class="about-img">
-            <img class="img-responsive" src="/img/TLF2015.jpg" alt="">
-          </div>
-
-          <div class="about-details">
-            <div class="pentagon-text">
-              <h1>C</h1>
-            </div>
-
-            <h3> Bermuda Transit </h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 col-sm-6">
-        <div class="single-about-detail">
-          <div class="about-img">
-            <img class="img-responsive" src="img/TLFGroup.jpg" alt="Technology Leadership Forum 2015 Group">
-          </div>
-
-          <div class="about-details">
-            <div class="pentagon-text">
-              <h1>W</h1>
-            </div>
-
-            <h3> Technology Leadership Forum </h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-md-4 col-sm-6">
-        <div class="single-about-detail">
-          <div class="about-img">
-            <img class="img-responsive" src="img/TLF.jpg" alt="">
-          </div>
-
-          <div class="about-details">
-            <div class="pentagon-text">
-              <h1>M</h1>
-            </div>
-
-            <h3>TLF Board</h3>
-            <p>
-              Without the organisation and contiues review of the internship from the TLF Board, Alumni, and Sponsors.
-              This program will not be able to be as successful as it is and give back to Bermuda, grow and get better each year.
-              The TLF internship is a great opportunity for young aspiring IT individuals to get in.
-
-            </p>
-          </div>
-        </div>
-      </div>
 
     </div>
   </div>
@@ -136,70 +79,19 @@
 </section> -->
 <!-- end of service section -->
 
-<hr/>
 
 <!-- team section -->
 
-<section class="team" id="team">
+<!-- <section class="team" id="team">
   <div class="container" >
     <div class="row" >
       <div class="team-heading text-center" >
 
-        <h2>our team</h2>
-        <h4>This is the team for the 2015 TLF Internship program over the summer. This application was developed by the students of the internship, with the assistance of TLF alumni.</h4>
-      </div>
-
-      <div class="col-md-2 single-member col-sm-4">
-        <div class="person">
-          <img class="img-responsive" src="img/TLF2015.jpg" alt="member-1">
-        </div>
-        <div class="person-detail">
-          <div class="arrow-bottom"></div>
-          <h3>Alexis Burgess</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-        </div>
-      </div>
-
-
-      <div class="col-md-2 single-member col-sm-4">
-        <div class="person-detail">
-          <div class="arrow-top"></div>
-          <h3>Yuzaire Bean</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-        </div>
-        <div class="person">
-          <img class="img-responsive" src="img/TLF2015.jpg" alt="member-2">
-        </div>
-      </div>
-
-
-      <div class="col-md-2 single-member col-sm-4">
-        <div class="person">
-          <img class="img-responsive" src="img/TLF2015.jpg" alt="member-3">
-        </div>
-        <div class="person-detail">
-          <div class="arrow-bottom"></div>
-          <h3>Charnae Richardson</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-        </div>
-      </div>
-
-
-      <div class="col-md-2 single-member col-sm-4">
-        <div class="person-detail">
-          <div class="arrow-top"></div>
-          <h3>Chris Wellman</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-        </div>
-        <div class="person">
-          <img class="img-responsive" src="img/TLF2015.jpg" alt="member-4">
-        </div>
-      </div>
-
-
     </div>
   </div>
-</section><!-- end of team section -->
+</section> -->
+
+<!-- end of team section -->
 
 <!-- map section -->
 <section class="api-map" id="contact">
@@ -254,7 +146,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-6 footer-para">
-        <p>&copy;TLF Internship & BDApp Innovations</p>
+        <p>&copy;2015 TLF Internship & BDApp Innovations</p>
       </div>
 
       <div class="col-xs-6 text-right">
