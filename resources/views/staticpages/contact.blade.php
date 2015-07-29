@@ -38,8 +38,8 @@
                 <ul class="nav navbar-nav navbar-right">
 
                   <li><a class="menu" href="{{url('/index')}}"> home </a></li>
-                  <li><a class="menu" href="{{url('/busfare')}}"> bus schedule </a></li>
-                  <li><a class="menu" href="{{url('/busschedule')}}"> bus fare </a></li>
+									<li><a class="menu" href="{{url('/busFare')}}">bus fare</a></li>
+					        <li><a class="menu" href="{{url('/busSchedule')}}"> Bus Schedule </a></li>
                   <li><a class="menu active" href="{{url('/contact')}}"> contact </a></li>
                   <li><a class="menu" href="{{url('/about')}}"> about us </a></li>
 

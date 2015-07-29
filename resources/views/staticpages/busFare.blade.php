@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,10 +40,10 @@
 
 					      <ul class="nav navbar-nav navbar-right">
 									<li><a class="menu" href="{{url('/index')}}"> home </a></li>
-                  <li><a class="menu active" href="{{url('/busfare')}}"> bus fare </a></li>
-                  <li><a class="menu" href="{{url('/busschedule')}}"> bus schedule </a></li>
+                  <li><a class="menu" href="{{url('/busFare')}}">bus fare</a></li>
+					        <li><a class="menu" href="{{url('/busSchedule')}}"> Bus Schedule </a></li>
                   <li><a class="menu" href="{{url('/contact')}}"> contact </a></li>
-                  <li><a class="menu" href="{{url('/about')}}"> our services </a></li>
+                  <li><a class="menu" href="{{url('/about')}}"> about us </a></li>
 
 					      </ul>
 					    </div><!-- /navbar-collapse -->
@@ -252,7 +253,7 @@
 					<div class="row">
 							<div class="contact-caption clearfix">
 								<div class="contact-heading text-center">
-									<h2>How To Ride</h2>
+                  <h2>How To Ride</h2>
 								</div>
 							</div>
 					</div>
@@ -270,8 +271,37 @@
             Dollar bills will not be accepted. Place your fare directly into the fare-box as you enter the bus.
             Do not give your fare to the bus operator. Bus operators do not make change for passengers, do not handle fares, and do not deposit money in the fare-box.
 
+            If you would like to pay your fare by cash, please ensure that you have exact change before boarding the bus.
+            Dollar bills are not accepted. Place your fare directly into the fare-box as you enter the bus. Do not give your fare to the bus operator.
+            Bus operators do not make change for passengers, do not handle fares, and do not deposit money in the fare-box.
+
 				 </h3>
 
+        <hr/>
+
+        <h2> Using Bus Transfers </h2>
+        <h3>
+
+          <p>
+
+            Before boarding a bus, be sure to read the front destination sign to ensure that you are travelling in the right direction and on the correct route.
+            You may need to change buses to get to your final destination. If you are traveling from Hamilton to St. David's you may have to change buses at the entrance to St. Davidís.
+
+          </p>
+
+          <p>
+
+            The destination sign on the side of the bus displays the second portion of work that the bus will complete.
+            If this is contrary to your final destination, you must ask for a transfer at the time of paying the fare.
+            A transfer is a small slip of paper that indicates the time the transfer is to be made, and the zone of the final destination.
+            It is used for a continuous journey and does not allow for a stop-over.
+            It will display a 15 minute timeframe in which you must catch your connecting bus.
+            If a transfer has expired, you will be required to pay the fare to your destination
+            unless you are travelling at a time when the buses are not travelling in 15 minute intervals.
+
+          </p>
+
+        </h3>
 
 			 </div>
 			</section><!-- end of how to ride section -->

@@ -13,17 +13,17 @@
 
 Route::get('/', function () { return view('welcome'); });
 
-Route::get('home', 'StaticPageController@home');
-
 Route::get('index', 'StaticPageController@index');
 
 Route::get( 'contact',  'StaticPageController@contact' );
 
 Route::get ('about', 'StaticPageController@about');
 
-Route::get ('busfare', 'StaticPageController@busfare');
+Route::get ('busFare', 'StaticPageController@busFare');
 
-Route::get ('busschedule', 'StaticPageController@busschedule');
+Route::get ('busSchedule', 'StaticPageController@busschedule');
+
+Route::get ('busS', 'StaticPageController@busSchedule');
 
 Route::get('/test', function () { return view('test'); });
 
@@ -37,9 +37,9 @@ Route::get('routes/{id}','RoutesController@show');
 
 Route::post('routes', 'RoutesController@store');
 
+////
 
-//
-// Route::get('notifies','NotificationsController@index');
+Route::get('notifies','NotificationsController@index');
 
 Route::get('notifies/create','NotificationsController@create');
 
@@ -47,9 +47,8 @@ Route::get('notifies/{id}','NotificationsController@show');
 
 Route::post('notifies', 'NotificationsController@store');
 
-//Route::get('notifies', 'NotificationsController@edit');
+Route::get('notifies', 'NotificationsController@edit');
 
-Route::resource('notifies', 'NotificationsController');
 
 
 

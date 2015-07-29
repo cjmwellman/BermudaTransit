@@ -16,103 +16,42 @@ class StaticPageController extends Controller
      */
     public function index()
     {
-        return view('pages.index');
+        return view('staticpages.index');
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return Response
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @return Response
-     */
-    public function store()
-    {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  int  $id
-     * @return Response
-     */
-    public function update($id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return Response
-     */
 
     public function home()
     {
 
-      return view('pages.home');
+      return view('staticpages.home');
 
     }
 
-
-    public function busschedule()
+    public function busSchedule()
     {
 
-      return view('pages.busschedule');
+      return view('staticpages.busSchedule');
 
     }
 
-
-    public function busfare()
+    public function busFare()
     {
 
-      return view('pages.busfare');
+      return view('staticpages.busFare');
 
     }
 
     public function contact()
     {
 
-      return view('pages.contact');
+      return view('staticpages.contact');
 
     }
 
     public function about()
     {
 
-      return view('pages.about');
+      return view('staticpages.about');
 
     }
 

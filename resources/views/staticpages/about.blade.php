@@ -38,8 +38,8 @@
                 <ul class="nav navbar-nav navbar-right">
 
                   <li><a class="menu" href="{{url('/index')}}"> home </a></li>
-                  <li><a class="menu" href="{{url('/busfare')}}"> bus schedule </a></li>
-                  <li><a class="menu" href="{{url('/busschedule')}}"> bus fare </a></li>
+									<li><a class="menu" href="{{url('/busFare')}}">bus fare</a></li>
+					        <li><a class="menu" href="{{url('/busSchedule')}}"> Bus Schedule </a></li>
                   <li><a class="menu" href="{{url('/contact')}}"> contact </a></li>
                   <li><a class="menu active" href="{{url('/about')}}"> about us </a></li>
 
@@ -164,16 +164,63 @@
   <div class="container">
     <div class="row">
       <div class="team-heading text-center">
-        <h2>BermudaTransit</h2>
 
-        <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</h4>
+        <h2>our team</h2>
+        <h4>This is the team for the 2015 TLF Internship program over the summer. This application was developed by the students of the internship, with the assistance of TLF alumni.</h4>
       </div>
 
-      <img class="brain img-responsive" src="img/TLF2015.jpg" alt="TLF 2015 Interns">
+      <div class="col-md-2 single-member col-sm-4">
+        <div class="person">
+          <img class="img-responsive" src="img/TLF2015.jpg" alt="member-1">
+        </div>
+        <div class="person-detail">
+          <div class="arrow-bottom"></div>
+          <h3>Alexis Burgess</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+        </div>
+      </div>
+
+
+      <div class="col-md-2 single-member col-sm-4">
+        <div class="person-detail">
+          <div class="arrow-top"></div>
+          <h3>Yuzaire Bean</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+        </div>
+        <div class="person">
+          <img class="img-responsive" src="img/TLF2015.jpg" alt="member-2">
+        </div>
+      </div>
+
+
+      <div class="col-md-2 single-member col-sm-4">
+        <div class="person">
+          <img class="img-responsive" src="img/TLF2015.jpg" alt="member-3">
+        </div>
+        <div class="person-detail">
+          <div class="arrow-bottom"></div>
+          <h3>Charnae Richardson</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+        </div>
+      </div>
+
+
+      <div class="col-md-2 single-member col-sm-4">
+        <div class="person-detail">
+          <div class="arrow-top"></div>
+          <h3>Chris Wellman</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+        </div>
+        <div class="person">
+          <img class="img-responsive" src="img/TLF2015.jpg" alt="member-4">
+        </div>
+      </div>
+
 
     </div>
   </div>
 </section><!-- end of team section -->
+
 
 <!-- map section -->
 <section class="api-map" id="contact">

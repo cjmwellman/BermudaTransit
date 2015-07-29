@@ -10,17 +10,17 @@ class CreateNotificationsTable extends Migration
      *
      * @return void
      */
-    public function up()
-    {
-        Schema::create('notifications', function (Blueprint $table) {
-          $table->increments('id');
-          $table->text('title');
-          $table->text('info');
-          $table->timestamps();
+     public function up()
+     {
+         Schema::create('notifications', function (Blueprint $table) {
+           $table->increments('id');
+           $table->text('title');
+           $table->text('info');
+           $table->timestamps();
 
 
-        });
-    }
+         });
+     }
 
     /**
      * Reverse the migrations.

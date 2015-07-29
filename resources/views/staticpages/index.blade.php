@@ -18,7 +18,7 @@
 			<div class="row">
 				<div class="col-xs-5 header-logo">
 					<br>
-					<a href="index.html"><img src="img/bdalogo2.png" alt="" class="img-responsive logo"></a>
+					<a href="index.html"><img src="img/bdatranlogo.png" alt="" class="img-responsive logo"></a>
 				</div>
 
 				 <div class="col-md-7">
@@ -39,8 +39,8 @@
 
 					      <ul class="nav navbar-nav navbar-right">
 					        <li><a class="menu active" href="{{url('/index')}}"> home </a></li>
-					        <li><a class="menu" href="{{url('/busfare')}}">bus fare</a></li>
-					        <li><a class="menu" href="{{url('/busschedule')}}"> bus schedule </a></li>
+					        <li><a class="menu" href="{{url('/busFare')}}">bus fare</a></li>
+					        <li><a class="menu" href="{{url('/busSchedule')}}"> Bus Schedule </a></li>
 					        <li><a class="menu" href="{{url('/contact')}}">contact us</a></li>
 					        <li><a class="menu" href="{{url('/about')}}"> about us</a></li>
 					      </ul>
@@ -172,7 +172,7 @@
 
 			<!-- team section -->
 
-			<section class="team" id="team">
+			<!-- <section class="team" id="team">
 				<div class="container">
 					<div class="row">
 						<div class="team-heading text-center">
@@ -231,7 +231,8 @@
 
 					</div>
 				</div>
-			</section><!-- end of team section -->
+			</section> -->
+			<!-- end of team section -->
 
 			<!-- map section -->
 			<section class="api-map" id="contact">
