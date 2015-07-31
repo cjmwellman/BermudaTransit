@@ -40,9 +40,10 @@
 
 					      <ul class="nav navbar-nav navbar-right">
 									<li><a class="menu" href="{{url('/index')}}"> home </a></li>
-                  <li><a class="menu" href="{{url('/busFare')}}">bus fare</a></li>
-					        <li><a class="menu" href="{{url('/busSchedule')}}"> Bus Schedule </a></li>
-                  <li><a class="menu" href="{{url('/contact')}}"> contact </a></li>
+                  <li><a class="menu active" href="{{url('/busFare')}}">bus fare</a></li>
+					        <li><a class="menu" href="{{url('/busSchedule')}}"> bus schedule </a></li>
+                  <li><a class="menu" href="{{url('/howToride')}}"> how to ride </a></li>
+                  <li><a class="menu" href="{{url('/contact')}}"> contact us </a></li>
                   <li><a class="menu" href="{{url('/about')}}"> about us </a></li>
 
 					      </ul>
@@ -52,11 +53,12 @@
 				</div>
 			</div>
 		</div>
-	</header> <!-- end of header area -->
+	</header>
+  <!-- end of header area -->
 
 
 
-
+  <!-- begin of slider section -->
 			<section class="slider" id="home">
 			<div class="container-fluid">
 					<div class="row">
@@ -64,7 +66,8 @@
 
 					</div>
 				</div>
-			</section><!-- end of slider section -->
+			</section>
+  <!-- end of slider section -->
 
 
 			<!-- about section -->
@@ -195,7 +198,8 @@
 
 					</div>
 				</div>
-			</section><!-- end of about section -->
+			</section>
+      <!-- end of about section -->
 
 
 			<!-- service section starts here -->
@@ -234,21 +238,23 @@
 						</div>
 					</div>
 				</div>
-			</section><!-- end of service section -->
+			</section>
+      <!-- end of service section -->
 
 
 
 			<!-- map section -->
-			<section class="api-map" id="contact">
+			<!-- <section class="api-map" id="contact">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-12 map" id="map"></div>
 					</div>
 				</div>
-			</section><!-- end of map section -->
+			</section> -->
+      <!-- end of map section -->
 
 		<!--	how to ride section starts here -->
-			 <section class="contact">
+			 <!-- <section class="contact">
 				<div class="container">
 					<div class="row">
 							<div class="contact-caption clearfix">
@@ -256,8 +262,8 @@
                   <h2>How To Ride</h2>
 								</div>
 							</div>
-					</div>
-					<h2> Get Tickets, Tokens, Passes  </h2>
+					</div> -->
+					<!-- <h2> Get Tickets, Tokens, Passes  </h2>
 					<h3>
             Tickets, tokens and transportation passes are available from the Hubert Winfield (Sparky) Lightbourne Central Bus Terminal on Washington Street in Hamilton.
             Tokens and transportation passes are also available at the Ferry Terminal in Hamilton, the Visitors’ Information Centres, many hotels and guest houses. Tickets, school passes and adult passes are available at many post offices.
@@ -301,10 +307,11 @@
 
           </p>
 
-        </h3>
-
+        </h3> -->
+<!--
 			 </div>
-			</section><!-- end of how to ride section -->
+			</section> -->
+      <!-- end of how to ride section -->
 
 
 			<!-- footer starts here -->

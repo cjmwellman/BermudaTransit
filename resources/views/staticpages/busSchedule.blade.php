@@ -40,8 +40,9 @@
 					      <ul class="nav navbar-nav navbar-right">
 									<li><a class="menu " href="{{url('/index')}}"> home </a></li>
 									<li><a class="menu" href="{{url('/busFare')}}">bus fare</a></li>
-					        <li><a class="menu" href="{{url('/busSchedule')}}"> Bus Schedule </a></li>
-                  <li><a class="menu" href="{{url('/contact')}}"> contact </a></li>
+					        <li><a class="menu active" href="{{url('/busSchedule')}}"> bus schedule </a></li>
+									<li><a class="menu" href="{{url('/howToride')}}"> how to ride </a></li>
+                  <li><a class="menu" href="{{url('/contact')}}"> contact us </a></li>
                   <li><a class="menu" href="{{url('/about')}}"> about us </a></li>
 
 					      </ul>
@@ -90,11 +91,16 @@
 					<div class="row">
 						<h2>Bus Schedule</h2>
 
-						<table border="1", style="width:100%; color: #000;">
-  <thead><tr><th colspan="6" bgcolor="#FFFFFF" style="text-align: center" title="Field #1">Route 11: Hamilton - St. George&#39;s</th>
-  </tr></thead>
-  <tbody><tr><td colspan="6
-  " bgcolor="#FFFFFF" style="text-align: center"> Via Blackwatch Pass, Aquarium and Blue Hole Hill Roundabout</td>
+						<!-- <table  style="width:100%"; color: #000 , border="1"> -->
+	<table>
+  	<thead>
+			<tr>
+				<th colspan="6" bgcolor="#FFFFFF" style="text-align: center" title="Field #1">Route 11: Hamilton - St. George&#39;s</th>
+  		</tr>
+		</thead>
+  	<tbody>
+			<tr>
+				<td colspan="6" bgcolor="#FFFFFF" style="text-align: center"> Via Blackwatch Pass, Aquarium and Blue Hole Hill Roundabout</td>
     <!-- <td> </td>
   <td> </td>
   <td> </td>
@@ -495,7 +501,7 @@
 			</section><!-- end of map section -->
 
 			<!-- contact section starts here -->
-			<section class="contact">
+			<!-- <section class="contact">
 				<div class="container">
 					<div class="row">
 							<div class="contact-caption clearfix">
@@ -533,7 +539,8 @@
 							</div>
 					</div>
 				</div>
-			</section><!-- end of contact section -->
+			</section> -->
+			<!-- end of contact section -->
 
 
 			<!-- footer starts here -->

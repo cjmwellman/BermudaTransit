@@ -41,6 +41,11 @@ class StaticPageController extends Controller
 
     }
 
+    public function howToride()
+    {
+      return view('staticpages.howToride');
+    }
+
     public function contact()
     {
 

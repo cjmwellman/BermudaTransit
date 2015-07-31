@@ -15,15 +15,15 @@ Route::get('/', function () { return view('welcome'); });
 
 Route::get('index', 'StaticPageController@index');
 
-Route::get( 'contact',  'StaticPageController@contact' );
-
-Route::get ('about', 'StaticPageController@about');
-
 Route::get ('busFare', 'StaticPageController@busFare');
 
 Route::get ('busSchedule', 'StaticPageController@busschedule');
 
-Route::get ('busS', 'StaticPageController@busSchedule');
+Route::get ('howToride', 'StaticPageController@howToride');
+
+Route::get( 'contact',  'StaticPageController@contact' );
+
+Route::get ('about', 'StaticPageController@about');
 
 Route::get('/test', function () { return view('test'); });
 

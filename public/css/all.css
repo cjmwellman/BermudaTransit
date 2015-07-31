@@ -4,25 +4,29 @@ body{padding-top:100px}
 
 .checkbox label,body,label{font-weight:300}
 
-table,th{text-align: center;}
+table,th
+	{
+		text-align: center;
+		font-size: 20px;
+	}
 
 body{
 	margin: 0;
 	padding: 0;
 	font-family: 'BenchNine', sans-serif;
 	background-color: white;
-}
+	}
 li{
 	list-style: none;
-}
+	}
 a:hover, a:visited, a{
 	text-decoration: none;
-}
+	}
 h1, h2{
 	text-transform: uppercase;
 	font-weight: bold;
 	color: #42b3e5;
-}
+	}
 
 
 /*header area*/
@@ -77,7 +81,7 @@ ul.nav{
 	padding: 0;
 }
 .navbar-default .navbar-nav>li>a {
- 	font-size: 24px;
+ 	font-size: 19px;
 	color: #737373;
 	text-transform: uppercase;
 	transition: all .7s ease 0s;
@@ -85,7 +89,7 @@ ul.nav{
 	-moz-transition: all .7s ease 0s;
 	-o-transition: all .7s ease 0s;
 	-ms-transition: all .7s ease 0s;
-	padding: 14px 15px;
+	padding: 16px 17px;
 	font-weight: bold;
 }
 .navbar-default .navbar-nav>li>a:hover{
@@ -289,6 +293,14 @@ li a.active{
 	margin-top: 70px;
 	margin-bottom: 0;
 }
+
+.service h3{
+	font-size: 36px;
+	color: #FFF;
+	
+}
+
+
 .service h4{
 	font-size: 24px;
 	color: #fff;
@@ -387,7 +399,7 @@ li a.active{
 /*team section*/
 .team{
 	padding-bottom: 60px;
-
+	align-items: center;
 }
 .team h2{
 	font-size: 90px;
@@ -409,6 +421,7 @@ li a.active{
 }
 .person img{
 	width: 100%;
+
 }
 .person-detail{
 	padding:10px;
@@ -419,6 +432,7 @@ li a.active{
 	-moz-transition: all .7s ease 0s;
 	-o-transition: all .7s ease 0s;
 	-ms-transition: all .7s ease 0s;
+
 }
 .arrow-top{
 	position: absolute;

@@ -39,8 +39,9 @@
 
                   <li><a class="menu" href="{{url('/index')}}"> home </a></li>
 									<li><a class="menu" href="{{url('/busFare')}}">bus fare</a></li>
-					        <li><a class="menu" href="{{url('/busSchedule')}}"> Bus Schedule </a></li>
-                  <li><a class="menu" href="{{url('/contact')}}"> contact </a></li>
+					        <li><a class="menu" href="{{url('/busSchedule')}}"> bus schedule </a></li>
+									<li><a class="menu" href="{{url('/howToride')}}"> how to ride </a></li>
+                  <li><a class="menu" href="{{url('/contact')}}"> contact us </a></li>
                   <li><a class="menu active" href="{{url('/about')}}"> about us </a></li>
 
                 </ul>
@@ -50,7 +51,8 @@
         </div>
       </div>
     </div>
-  </header> <!-- end of header area -->
+  </header>
+<!-- end of header area -->
 
 <!-- about section -->
 <section class="about text-center" id="about">
@@ -82,7 +84,7 @@
       <div class="col-md-4 col-sm-6">
         <div class="single-about-detail">
           <div class="about-img">
-            <img class="img-responsive" src="img/TLFGroup.jpg" alt="Technology Leadership Forum 2015 Group">
+            <img class="img-responsive" src="img/TLF20152.jpg" alt="Technology Leadership Forum 2015 Group">
           </div>
 
           <div class="about-details">
@@ -132,24 +134,30 @@
     <div class="row">
       <h2>Technology Leadership Forum</h2>
 
-      <h4>
-        Founded in 2007, the TLF is a 12-13 week paid summer internship programme that provides students with a major in IT and students interested in IT the opportunity to learn more about IT and it’s different areas.
-        The TLF also allows graduates of IT to meet other professionals within the IT field and gain experience in the IT world so that they can become closer to acquiring a job.
-        Other IT professionals can see the upcoming IT talent in Bermuda and get a head start in hiring those that will be available in the market.
-        A networking event hosted by the TLF and current interns each summer provides a perfect opportunity for the interns and professionals of IT, as well as other students, to gain that advantage.
-      </h4>
-
-      <h4>
-        The TLF allows students of the summer internship to build leadership skills with a summer group project, which they then present to the board at the end of the programme.
-        Each member of the internship programme is placed at an IT company based in Bermuda so they can work in the IT world and gain experience within the different IT areas.
-        Along with working in the IT world, each intern is given a mentor from the board to help guide and assist them throughout the internship programme. Each month there is also a weeklong training period where instructors or IT professionals teach the students more in depth about working in the IT world, networking and other areas of IT.
-        The following week there is a short exam.
-      </h4>
-
-      <h4>
-        Overall, the TLF is a great opportunity for those students and graduates interested in
-        IT to gain a great deal of experience & knowledge and position themselves in the right place in order gain a career in the world of IT.
-      </h4>
+			<h3>TLF (Technology Leadership Forum)</h3>
+ 			<h4>
+						Founded in 2007, the TLF is a 12-13 week summer internship programme
+						that provides college students, with a major in information technology (IT)
+						and students interested in IT, the opportunity to learn and gain real world experience in the industry.
+						This internship allows professionals a first hand look on the upcoming IT talent in Bermuda.
+			</h4>
+			<h4>
+						The TLF allows students to build leadership and teamwork skills with
+						a group project, which is  then presented at the end of the programme.
+						Each member of the internship programme is provided with a work placement
+						with a company based in Bermuda. Interns are also provided with a mentor to help guide and assist them throughout the programme.
+						There is also training periods throughout the summer where IT professionals teach the students various areas of IT as well as soft skills.
+			</h4>
+			<h4>
+					An annual networking event hosted by the TLF each summer provides a perfect
+					opportunity for the interns and members of the public to mingle and learn
+					about this dynamically changing environment.
+			</h4>
+			<h4>
+					Overall, the TLF is a great opportunity for those students and graduates
+					interested in IT to gain a great deal of experience & knowledge and position
+					themselves in the right place in order gain a career in the world of IT.
+			</h4>
 
 
 
@@ -161,8 +169,8 @@
 <!-- team section -->
 
 <section class="team" id="team">
-  <div class="container">
-    <div class="row">
+  <div class="container" >
+    <div class="row" style="align:center">
       <div class="team-heading text-center">
 
         <h2>our team</h2>
@@ -171,7 +179,7 @@
 
       <div class="col-md-2 single-member col-sm-4">
         <div class="person">
-          <img class="img-responsive" src="img/TLF2015.jpg" alt="member-1">
+          <img class="img-responsive" src="img/TLFAB.jpg" alt="member-1">
         </div>
         <div class="person-detail">
           <div class="arrow-bottom"></div>
@@ -188,19 +196,22 @@
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
         </div>
         <div class="person">
-          <img class="img-responsive" src="img/TLF2015.jpg" alt="member-2">
+          <img class="img-responsive" src="img/TLFYB.jpg" alt="member-2">
         </div>
       </div>
 
 
       <div class="col-md-2 single-member col-sm-4">
         <div class="person">
-          <img class="img-responsive" src="img/TLF2015.jpg" alt="member-3">
+          <img class="img-responsive" src="img/TLFCR.jpg" alt="member-3">
         </div>
         <div class="person-detail">
           <div class="arrow-bottom"></div>
           <h3>Charnae Richardson</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+          <p>
+							Entering her second year of the Computer Information Systems associates programme at the Bermuda College, Charnae has gained great knowledge being in the TLF Programme.
+							Playing the project lead role, Charnae organized and conducted meetings. She also had to communicate with potential resources for the project and provide documentation and plans for the overall project.
+ 					</p>
         </div>
       </div>
 
@@ -209,30 +220,35 @@
         <div class="person-detail">
           <div class="arrow-top"></div>
           <h3>Chris Wellman</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+          <p>
+						The lead developer of BermudaTransit also helped gather data and play a part in organization of the project.
+						Completed a BSc in Computing. There has been a wealth of knowledge and experience that has come over the tenancy of the TLF Internship.
+ 					</p>
         </div>
         <div class="person">
-          <img class="img-responsive" src="img/TLF2015.jpg" alt="member-4">
+          <img class="img-responsive" src="img/TLFCW.jpg" alt="member-4">
         </div>
       </div>
 
 
     </div>
   </div>
-</section><!-- end of team section -->
+</section>
+<!-- end of team section -->
 
 
 <!-- map section -->
-<section class="api-map" id="contact">
+<!-- <section class="api-map" id="contact">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12 map" id="map"></div>
     </div>
   </div>
-</section><!-- end of map section -->
+</section> -->
+<!-- end of map section -->
 
 <!-- contact section starts here -->
- <section class="contact">
+ <!-- <section class="contact">
   <div class="container">
     <div class="row">
 
@@ -240,7 +256,7 @@
 
     </div>
   </div>
-</section>
+</section> -->
 <!-- end of contact section -->
 
 
