@@ -38,12 +38,15 @@
 					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 					      <ul class="nav navbar-nav navbar-right">
-					        <li><a class="menu" href="{{url('/index')}}"> home </a></li>
+
+									<li><a class="menu" href="{{url('/index')}}"> home </a></li>
 					        <li><a class="menu" href="{{url('/busFare')}}">bus fare</a></li>
 					        <li><a class="menu" href="{{url('/busSchedule')}}"> Bus Schedule </a></li>
-                  <li><a class="menu active" href="{{url('/howToride')}}"> how to ride </a></li>
+									<li><a class="menu active" href="{{url('/howToride')}}"> how to ride </a></li>
 					        <li><a class="menu" href="{{url('/contact')}}">contact us</a></li>
+									<li><a class="menu" href="{{url('/notifies/index')}}">alerts</a></li>
 					        <li><a class="menu" href="{{url('/about')}}"> about us</a></li>
+
 					      </ul>
 					    </div> <!-- /navbar-collapse -->
 					  </div> <!--  / .container-fluid -->
@@ -59,52 +62,25 @@
 					<div class="row" style="margin-top:50px">
 						<div id="carouselHacked" class="carousel slide carousel-fade" data-ride="carousel">
 						<div class="header-backup"></div>
+
 								 <!-- Wrapper for slides -->
-								<div class="carousel-inner" role="listbox">
+
+								 <div class="carousel-inner" role="listbox">
 
 										<div class="item active">
-											<img src="img/TLF2015.jpg" alt="">
+											<img src="img/banner4.jpg" alt="">
 												<div class="carousel-caption">
-													<h1>providing</h1>
-													<p>highquality service for locals & tourists</p>
-													<button>learn more</button>
-												</div>
-										</div>
-
-										<div class="item">
-											<img src="img/TLF.jpg" alt="">
-												<div class="carousel-caption">
-													<h1>providing</h1>
-													<p>highquality service for locals & tourists</p>
-													<button>learn more</button>
-												</div>
-										</div>
-
-										<div class="item">
-											<img src="img/TLFGroup.jpg" alt="">
-												<div class="carousel-caption">
-													<h1>BermudaTransit</h1>
-													<p>highquality service for locals & tourists</p>
-													<button>learn more</button>
+													<h1>How To Ride</h1>
 												</div>
 										</div>
 								</div>
 
-								<!-- Controls -->
-							 <a class="left carousel-control" href="#carouselHacked" role="button" data-slide="prev">
-										<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-										<span class="sr-only">Previous</span>
-								</a>
-								<a class="right carousel-control" href="#carouselHacked" role="button" data-slide="next">
-										<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-										<span class="sr-only">Next</span>
-								</a>
-						</div>
 
+						</div>
 				</div>
 			</div>
 			</section>
-			<!-- end of slider section -->
+			 <!-- end of slider section -->
 
 		<hr/>
 
@@ -158,22 +134,55 @@
 
 	        </h3>
 
+					<h2> Poles </h2>
+					<h3>
+
+					<p>
+
+						A bus stop is identified by a pink or blue pole which indicates the direction that the bus will be headed.
+						Pink poles signify that the bus will be travelling into the City of Hamilton and blue poles signify that the bus will be travelling  out of the City of Hamilton.
+
+					</p>
+
+					<p>
+
+						The destination sign on the side of the bus displays the second portion of work that the bus will complete.
+						If this is contrary to your final destination, you must ask for a transfer at the time of paying the fare.
+						A transfer is a small slip of paper that indicates the time the transfer is to be made, and the zone of the final destination.
+						It is used for a continuous journey and does not allow for a stop-over.
+						It will display a 15 minute timeframe in which you must catch your connecting bus.
+						If a transfer has expired, you will be required to pay the fare to your destination
+						unless you are travelling at a time when the buses are not travelling in 15 minute intervals.
+
+					</p>
+
+				</h3>
+
+				<h2> Fare </h2>
+				<h3>
+
+					If you would like to pay your fare by cash, please ensure that you have exact change before boarding the bus.
+					Dollar bills are not accepted. Place your fare directly into the fare-box as you enter the bus. Do not give your fare to the bus operator.
+					Bus operators do not make change for passengers, do not handle fares, and do not deposit money in the fare-box.
+
+				</h3>
+
 					</div>
 				</div>
 			</section><!-- end of about section -->
 
 			<!-- map section -->
-			<section class="api-map" id="contact">
+			<!-- <section class="api-map" id="contact">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-12 map" id="map"></div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 			<!-- end of map section -->
 
 		<!--	how to ride section starts here -->
-			 <section class="contact">
+			 <!-- <section class="contact">
 				<div class="container">
 					<div class="row">
 							<div class="contact-caption clearfix">
@@ -196,10 +205,8 @@
 					 Bus operators do not make change for passengers, do not handle fares, and do not deposit money in the fare-box.
 				 </h3>
 			<hr/>
-
-
 			 </div>
-			</section>
+			</section> -->
 			<!-- end of how to ride section -->
 
 
@@ -219,10 +226,6 @@
 					</div>
 				</div>
 			</footer>
-
-
-
-
 
 	<!-- script tags
 	============================================================= -->

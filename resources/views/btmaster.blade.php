@@ -3,31 +3,17 @@
   <head>
 
     <meta charset="utf-8">
-    <title>Master</title>
+    <title>Document</title>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <!-- <link rel="stylesheet" href="{{ elixir('css/all.css') }}"> -->
-    <link rel="stylesheet" type="text/css" media="all" href="/css/all.css">
+    <!-- <link rel="stylesheet" type="text/css" media="all" href="/css/all.css"> -->
   </head>
 
   <body>
 
     <div class="container">
+        @yield('content')
 
-
-
-      <div class="header">
-
-
-      </div>
-
-      @yield('header')
-
-      <div class="content">
-
-
-      </div>
-
-      @yield('content')
 
     </div>
 

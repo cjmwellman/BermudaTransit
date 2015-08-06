@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Alert;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -59,5 +60,6 @@ class StaticPageController extends Controller
       return view('staticpages.about');
 
     }
+
 
 }

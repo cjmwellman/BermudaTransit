@@ -38,12 +38,14 @@
 					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 					      <ul class="nav navbar-nav navbar-right">
-									<li><a class="menu " href="{{url('/index')}}"> home </a></li>
-									<li><a class="menu" href="{{url('/busFare')}}">bus fare</a></li>
-					        <li><a class="menu active" href="{{url('/busSchedule')}}"> bus schedule </a></li>
+
+									<li><a class="menu" href="{{url('/index')}}"> home </a></li>
+					        <li><a class="menu" href="{{url('/busFare')}}">bus fare</a></li>
+					        <li><a class="menu active" href="{{url('/busSchedule')}}"> Bus Schedule </a></li>
 									<li><a class="menu" href="{{url('/howToride')}}"> how to ride </a></li>
-                  <li><a class="menu" href="{{url('/contact')}}"> contact us </a></li>
-                  <li><a class="menu" href="{{url('/about')}}"> about us </a></li>
+					        <li><a class="menu" href="{{url('/contact')}}">contact us</a></li>
+									<li><a class="menu" href="{{url('/notifies/index')}}">alerts</a></li>
+					        <li><a class="menu" href="{{url('/about')}}"> about us</a></li>
 
 					      </ul>
 					    </div><!-- /navbar-collapse -->
@@ -52,7 +54,8 @@
 				</div>
 			</div>
 		</div>
-	</header> <!-- end of header area -->
+	</header>
+	<!-- end of header area -->
 
 
 
@@ -64,7 +67,8 @@
 
 					</div>
 				</div>
-			</section><!-- end of slider section -->
+			</section>
+			<!-- end of slider section -->
 
 
 			<!-- about section -->
@@ -485,20 +489,22 @@
 
 			<!-- team section -->
 
-			<!-- <section class="team" id="team">
+			 <!-- <section class="team" id="team">
 				<div class="container">
-				      <img src="/TLF2015.jpg" alt="Logo">
-				</div> -->
-			<!-- </section><!-- end of team section -->
+				      <img src="img/TLF2015.jpg" alt="Logo">
+				</div>
+			</section> -->
+			<!-- end of team section -->
 
 			<!-- map section -->
-			<section class="api-map" id="contact">
+			<!-- <section class="api-map" id="contact">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-12 map" id="map"></div>
 					</div>
 				</div>
-			</section><!-- end of map section -->
+			</section> -->
+			<!-- end of map section -->
 
 			<!-- contact section starts here -->
 			<!-- <section class="contact">

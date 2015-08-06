@@ -39,12 +39,14 @@
 					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 					      <ul class="nav navbar-nav navbar-right">
+
 									<li><a class="menu" href="{{url('/index')}}"> home </a></li>
-                  <li><a class="menu active" href="{{url('/busFare')}}">bus fare</a></li>
-					        <li><a class="menu" href="{{url('/busSchedule')}}"> bus schedule </a></li>
-                  <li><a class="menu" href="{{url('/howToride')}}"> how to ride </a></li>
-                  <li><a class="menu" href="{{url('/contact')}}"> contact us </a></li>
-                  <li><a class="menu" href="{{url('/about')}}"> about us </a></li>
+					        <li><a class="menu active" href="{{url('/busFare')}}">bus fare</a></li>
+					        <li><a class="menu" href="{{url('/busSchedule')}}"> Bus Schedule </a></li>
+									<li><a class="menu" href="{{url('/howToride')}}"> how to ride </a></li>
+					        <li><a class="menu" href="{{url('/contact')}}">contact us</a></li>
+									<li><a class="menu" href="{{url('/notifies/index')}}">alerts</a></li>
+					        <li><a class="menu" href="{{url('/about')}}"> about us</a></li>
 
 					      </ul>
 					    </div><!-- /navbar-collapse -->
@@ -204,41 +206,7 @@
 
 			<!-- service section starts here -->
 
-			<!-- <section class="service text-center" id="service">
-				<div class="container">
-					<div class="row">
-						<h2>How To Ride</h2>
-						<h4>Bermuda Transit is Bermuda developed and deployed web application design, developed, and documented by a group of young IT Aspiring Bermudians</h4>
 
-						<div class="col-md-3 col-sm-6">
-							<div class="single-service">
-								<div class="single-service-img">
-									<div class="service-img">
-										<img class="brain img-responsive" src="img/service2.png" alt="">
-									</div>
-								</div>
-								<h3>Bus Stops</h3>
-								<p>
-									A bus stop is identified by a pink or blue pole which indicates the direction that the bus will be headed.
-									Pink poles signify that the bus will be travelling into the City of Hamilton and blue poles signify that the bus will be travelling  out of the City of Hamilton.
-								</p>
-							</div>
-						</div>
-
-						<div class="col-md-3 col-sm-6">
-							<div class="single-service">
-								<div class="single-service-img">
-									<div class="service-img">
-										<img class="knee img-responsive" src="img/service3.png" alt="">
-									</div>
-								</div>
-
-								<h3>Bus Fares</h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
       <!-- end of service section -->
 
 
@@ -254,64 +222,8 @@
       <!-- end of map section -->
 
 		<!--	how to ride section starts here -->
-			 <!-- <section class="contact">
-				<div class="container">
-					<div class="row">
-							<div class="contact-caption clearfix">
-								<div class="contact-heading text-center">
-                  <h2>How To Ride</h2>
-								</div>
-							</div>
-					</div> -->
-					<!-- <h2> Get Tickets, Tokens, Passes  </h2>
-					<h3>
-            Tickets, tokens and transportation passes are available from the Hubert Winfield (Sparky) Lightbourne Central Bus Terminal on Washington Street in Hamilton.
-            Tokens and transportation passes are also available at the Ferry Terminal in Hamilton, the Visitors’ Information Centres, many hotels and guest houses. Tickets, school passes and adult passes are available at many post offices.
-            Tickets are sold in booklets of 15 only. Any sale or purchase of individual tickets is unlawful.
 
-					</h3>
-
-					<h2> Exact Change </h2>
-					<h3>
-            If you intend to pay your fare by cash, please ensure that you have exact change before boarding the bus.
-            Dollar bills will not be accepted. Place your fare directly into the fare-box as you enter the bus.
-            Do not give your fare to the bus operator. Bus operators do not make change for passengers, do not handle fares, and do not deposit money in the fare-box.
-
-            If you would like to pay your fare by cash, please ensure that you have exact change before boarding the bus.
-            Dollar bills are not accepted. Place your fare directly into the fare-box as you enter the bus. Do not give your fare to the bus operator.
-            Bus operators do not make change for passengers, do not handle fares, and do not deposit money in the fare-box.
-
-				 </h3>
-
-        <hr/>
-
-        <h2> Using Bus Transfers </h2>
-        <h3>
-
-          <p>
-
-            Before boarding a bus, be sure to read the front destination sign to ensure that you are travelling in the right direction and on the correct route.
-            You may need to change buses to get to your final destination. If you are traveling from Hamilton to St. David's you may have to change buses at the entrance to St. Davidís.
-
-          </p>
-
-          <p>
-
-            The destination sign on the side of the bus displays the second portion of work that the bus will complete.
-            If this is contrary to your final destination, you must ask for a transfer at the time of paying the fare.
-            A transfer is a small slip of paper that indicates the time the transfer is to be made, and the zone of the final destination.
-            It is used for a continuous journey and does not allow for a stop-over.
-            It will display a 15 minute timeframe in which you must catch your connecting bus.
-            If a transfer has expired, you will be required to pay the fare to your destination
-            unless you are travelling at a time when the buses are not travelling in 15 minute intervals.
-
-          </p>
-
-        </h3> -->
-<!--
-			 </div>
-			</section> -->
-      <!-- end of how to ride section -->
+    <!-- end of how to ride section -->
 
 
 			<!-- footer starts here -->

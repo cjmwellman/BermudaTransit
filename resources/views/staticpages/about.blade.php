@@ -37,12 +37,13 @@
 
                 <ul class="nav navbar-nav navbar-right">
 
-                  <li><a class="menu" href="{{url('/index')}}"> home </a></li>
+									<li><a class="menu" href="{{url('/index')}}"> home </a></li>
 									<li><a class="menu" href="{{url('/busFare')}}">bus fare</a></li>
-					        <li><a class="menu" href="{{url('/busSchedule')}}"> bus schedule </a></li>
+									<li><a class="menu" href="{{url('/busSchedule')}}"> Bus Schedule </a></li>
 									<li><a class="menu" href="{{url('/howToride')}}"> how to ride </a></li>
-                  <li><a class="menu" href="{{url('/contact')}}"> contact us </a></li>
-                  <li><a class="menu active" href="{{url('/about')}}"> about us </a></li>
+									<li><a class="menu" href="{{url('/contact')}}">contact us</a></li>
+									<li><a class="menu" href="{{url('/notifies/index')}}">alerts</a></li>
+									<li><a class="menu active" href="{{url('/about')}}"> about us</a></li>
 
                 </ul>
               </div><!-- /navbar-collapse -->
@@ -101,7 +102,7 @@
       </div>
 
 
-      <div class="col-md-4 col-sm-6">
+      <!-- <div class="col-md-4 col-sm-6">
         <div class="single-about-detail">
           <div class="about-img">
             <img class="img-responsive" src="img/TLF.jpg" alt="">
@@ -121,7 +122,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </section><!-- end of about section -->
@@ -184,7 +185,10 @@
         <div class="person-detail">
           <div class="arrow-bottom"></div>
           <h3>Alexis Burgess</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+          <p>
+						Heading into her 4th year of university at Saint Mary’s University in Halifax, majoring in Computing & Information Systems.
+						Helped with organizing the project, presentation & gathering data. The TLF internship programme has taught her a lot of valuable information about working in IT.
+					</p>
         </div>
       </div>
 
@@ -193,7 +197,12 @@
         <div class="person-detail">
           <div class="arrow-top"></div>
           <h3>Yuzaire Bean</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+          <p>
+						Conducted literature review. 
+						Helped with data collection for the project, also assisted with the organization.
+						Recent graduate from Eastern College, Received his diploma in Information System Specialist.
+						Upon completion he achieved an A+ Certification  and Network+ Certification.
+					</p>
         </div>
         <div class="person">
           <img class="img-responsive" src="img/TLFYB.jpg" alt="member-2">

@@ -25,29 +25,16 @@ Route::get( 'contact',  'StaticPageController@contact' );
 
 Route::get ('about', 'StaticPageController@about');
 
+/////
+
 Route::get('/test', function () { return view('test'); });
-
-
-
-Route::get('routes','RoutesController@busroutes');
-
-Route::get('routes/create','RoutesController@create');
-
-Route::get('routes/{id}','RoutesController@show');
-
-Route::post('routes', 'RoutesController@store');
 
 ////
 
-Route::get('notifies','NotificationsController@index');
+Route::get ('alerts','AlertsController@index');
 
-Route::get('notifies/create','NotificationsController@create');
+Route::get ('alerts/{id}','AlertsController@show');
 
-Route::get('notifies/{id}','NotificationsController@show');
-
-Route::post('notifies', 'NotificationsController@store');
-
-Route::get('notifies', 'NotificationsController@edit');
 
 
 

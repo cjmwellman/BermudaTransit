@@ -37,12 +37,13 @@
 
                 <ul class="nav navbar-nav navbar-right">
 
-                  <li><a class="menu" href="{{url('/index')}}"> home </a></li>
-									<li><a class="menu" href="{{url('/busFare')}}">bus fare</a></li>
-					        <li><a class="menu" href="{{url('/busSchedule')}}"> bus schedule </a></li>
+									<li><a class="menu" href="{{url('/index')}}"> home </a></li>
+					        <li><a class="menu" href="{{url('/busFare')}}">bus fare</a></li>
+					        <li><a class="menu" href="{{url('/busSchedule')}}"> Bus Schedule </a></li>
 									<li><a class="menu" href="{{url('/howToride')}}"> how to ride </a></li>
-                  <li><a class="menu active" href="{{url('/contact')}}"> contact us </a></li>
-                  <li><a class="menu" href="{{url('/about')}}"> about us </a></li>
+					        <li><a class="menu active" href="{{url('/contact')}}">contact us</a></li>
+									<li><a class="menu" href="{{url('/notifies/index')}}">alerts</a></li>
+					        <li><a class="menu" href="{{url('/about')}}"> about us</a></li>
 
                 </ul>
               </div><!-- /navbar-collapse -->
@@ -62,7 +63,7 @@
   <div class="container">
     <div class="row" style="margin-top:112px">
       <h2>contact us</h2>
-      <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</h4>
+      <h4>If you wish to contact BermudaTransit, please complete the form below</h4>
 
     </div>
   </div>
@@ -109,7 +110,7 @@
     <div class="row">
         <div class="contact-caption clearfix">
           <div class="contact-heading text-center">
-            <h2>contact us</h2>
+            <!-- <h2>contact us</h2> -->
           </div>
 
           <div class="col-md-5 contact-info text-left">

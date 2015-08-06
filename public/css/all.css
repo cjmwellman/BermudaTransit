@@ -25,7 +25,8 @@ a:hover, a:visited, a{
 h1, h2{
 	text-transform: uppercase;
 	font-weight: bold;
-	color: #42b3e5;
+	/*color: #42b3e5;*/
+	color: black;
 	}
 
 
@@ -81,7 +82,7 @@ ul.nav{
 	padding: 0;
 }
 .navbar-default .navbar-nav>li>a {
- 	font-size: 19px;
+ 	font-size: 18px;
 	color: #737373;
 	text-transform: uppercase;
 	transition: all .7s ease 0s;
@@ -89,7 +90,7 @@ ul.nav{
 	-moz-transition: all .7s ease 0s;
 	-o-transition: all .7s ease 0s;
 	-ms-transition: all .7s ease 0s;
-	padding: 16px 17px;
+	padding: 10px 10px;
 	font-weight: bold;
 }
 .navbar-default .navbar-nav>li>a:hover{
@@ -120,13 +121,15 @@ li a.active{
 }
 .carousel-caption h1{
 	font-size: 157px;
-	color: #fff;
+	/*color: #fff;*/
+	color: black;
 	text-transform: uppercase;
 	margin-bottom: 0;
 }
 .carousel-caption p{
 	font-size: 40px;
-	color: #fff;
+	/*color: #fff;*/
+	color: black;
 	text-transform: uppercase;
 	font-weight: bold;
 	margin-top: 0;
@@ -297,7 +300,6 @@ li a.active{
 .service h3{
 	font-size: 36px;
 	color: #FFF;
-	
 }
 
 
@@ -493,7 +495,7 @@ li a.active{
 /*contact section*/
 .contact-caption{
 	background: #3a9dca;
-	background:skyblue;
+
 }
 .contact-heading h2{
 	color: #fff;
