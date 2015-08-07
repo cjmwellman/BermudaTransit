@@ -1,4 +1,4 @@
-@extends('btmaster')
+@extends('master') 
 
 @section('content')
 

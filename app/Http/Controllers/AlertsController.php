@@ -19,7 +19,7 @@ class AlertsController extends Controller
 
   public function index()
   {
-    //$alerts = Alert::all();
+    $alerts = Alert::all();
     //return $alerts;
 
     ///

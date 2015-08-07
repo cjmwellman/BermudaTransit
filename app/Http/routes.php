@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () { return view('welcome'); });
-
-Route::get('index', 'StaticPageController@index');
+Route::get('/', 'StaticPageController@index');
 
 Route::get ('busFare', 'StaticPageController@busFare');
 
@@ -34,6 +32,14 @@ Route::get('/test', function () { return view('test'); });
 Route::get ('alerts','AlertsController@index');
 
 Route::get ('alerts/{id}','AlertsController@show');
+
+/////
+
+
+Route::get ('schedule','ScheduleController@schedule');
+
+Route::get ('timetable/{id}','ScheduleController@timetable');
+
 
 
 
