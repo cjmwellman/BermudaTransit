@@ -37,12 +37,12 @@
 
                 <ul class="nav navbar-nav navbar-right">
 
-									<li><a class="menu" href="{{url('/index')}}"> home </a></li>
+									<li><a class="menu" href="{{url('/')}}"> home </a></li>
 									<li><a class="menu" href="{{url('/busFare')}}">bus fare</a></li>
 									<li><a class="menu" href="{{url('/busSchedule')}}"> Bus Schedule </a></li>
 									<li><a class="menu" href="{{url('/howToride')}}"> how to ride </a></li>
 									<li><a class="menu" href="{{url('/contact')}}">contact us</a></li>
-									<li><a class="menu" href="{{url('/notifies/index')}}">alerts</a></li>
+									<li><a class="menu" href="{{url('/alerts')}}">alerts</a></li>
 									<li><a class="menu active" href="{{url('/about')}}"> about us</a></li>
 
                 </ul>
@@ -198,7 +198,7 @@
           <div class="arrow-top"></div>
           <h3>Yuzaire Bean</h3>
           <p>
-						Conducted literature review. 
+						Conducted literature review.
 						Helped with data collection for the project, also assisted with the organization.
 						Recent graduate from Eastern College, Received his diploma in Information System Specialist.
 						Upon completion he achieved an A+ Certification  and Network+ Certification.

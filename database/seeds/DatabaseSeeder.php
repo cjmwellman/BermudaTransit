@@ -19,7 +19,7 @@ class DatabaseSeeder extends Seeder
         $routes = [
     ["id" => 1, "number" => 1, "name" => "Hamilton - Grotto Bay", "detail" => "Via Tucker's Point and The Caves", "created_at" => date('Y-m-d H:i:s'), "updated_at" => date('Y-m-d H:i:s')],
     ["id" => 2, "number" => 1, "name" => "Hamilton - St. George's", "detail" => "Via Tucker's Point, The Caves and Grotto Bay", "created_at" => date('Y-m-d H:i:s'), "updated_at" => date('Y-m-d H:i:s')],
-    ["id" => 3, "number" => 2, "name" => "Hamilton - Ord Rode", "detail" => "Via Botanical Gardens and Elbow Beach", "created_at" => date('Y-m-d H:i:s'), "updated_at" => date('Y-m-d H:i:s')],
+    ["id" => 3, "number" => 2, "name" => "Hamilton - Ord Road", "detail" => "Via Botanical Gardens and Elbow Beach", "created_at" => date('Y-m-d H:i:s'), "updated_at" => date('Y-m-d H:i:s')],
     ["id" => 4, "number" => 3, "name" => "Hamilton - Grotto Bay", "detail" => "Via Middle Road, Devil's Hole, and The Caves", "created_at" => date('Y-m-d H:i:s'), "updated_at" => date('Y-m-d H:i:s')],
     ["id" => 5, "number" => 3, "name" => "Hamilton - St. George's", "detail" => "Via Middle Road, Devil's Hole, The Caves, and Grotto Bay", "created_at" => date('Y-m-d H:i:s'), "updated_at" => date('Y-m-d H:i:s')],
     ["id" => 6, "number" => 4, "name" => "Hamilton - Spanish Point", "detail" => "Via St. John's Road or North Shore Road", "created_at" => date('Y-m-d H:i:s'), "updated_at" => date('Y-m-d H:i:s')],

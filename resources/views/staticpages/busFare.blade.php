@@ -40,12 +40,12 @@
 
 					      <ul class="nav navbar-nav navbar-right">
 
-									<li><a class="menu" href="{{url('/index')}}"> home </a></li>
+									<li><a class="menu" href="{{url('/')}}"> home </a></li>
 					        <li><a class="menu active" href="{{url('/busFare')}}">bus fare</a></li>
 					        <li><a class="menu" href="{{url('/busSchedule')}}"> Bus Schedule </a></li>
 									<li><a class="menu" href="{{url('/howToride')}}"> how to ride </a></li>
 					        <li><a class="menu" href="{{url('/contact')}}">contact us</a></li>
-									<li><a class="menu" href="{{url('/notifies/index')}}">alerts</a></li>
+									<li><a class="menu" href="{{url('/alerts')}}">alerts</a></li>
 					        <li><a class="menu" href="{{url('/about')}}"> about us</a></li>
 
 					      </ul>

@@ -30,6 +30,18 @@ class AlertsController extends Controller
   }
 
 
+  // public function index()
+  // {
+  //
+  //   $alerts = Alert::all();
+  //
+  //
+  //   return view('alerts', compact('alerts'));
+  //
+  //
+  // }
+
+
   public function show($id)
   {
     $alert = Alert::find($id);

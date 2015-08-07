@@ -19,4 +19,7 @@
 
   @endforeach
 
+@section('footer')
+
+
 @stop

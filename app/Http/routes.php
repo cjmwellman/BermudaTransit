@@ -31,7 +31,7 @@ Route::get('/test', function () { return view('test'); });
 
 Route::get ('alerts','AlertsController@index');
 
-Route::get ('alerts/{id}','AlertsController@show');
+// Route::get ('alerts/{id}','AlertsController@show');
 
 /////
 
