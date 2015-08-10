@@ -22,34 +22,21 @@
 
 <hr/>
 
-  {{$route->number}}
-  {{$route->name}}
-  
-  <h1>weekday</h1>
+  <!-- <h1>weekday</h1>
   @foreach ($weekday as $time)
-  {{$time->time}}
-  @endforeach
+    {{$time->time}}
+  @endforeach -->
 
-  @foreach ($weekday as $direction)
-  {{$direction->direction}}
-  @endforeach
 
-  <h1>saturday</h1>
+  <!-- <h1>saturday</h1>
   @foreach ($saturday as $time)
+    {{$time->time}}
+  @endforeach -->
 
-  {{$time->time}}
-
-  @endforeach
-
-  <h1>sunday</h1>
+  <!-- <h1>sunday</h1>
   @foreach ($sunday as $time)
-
-  {{$time->time}}
-
-  @endforeach
-
-
-
+    {{$time->time}}
+  @endforeach -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -64,36 +51,90 @@
 <body>
 
 <div class="container">
-  <h2>Timetables</h2>
+  <h2>Timetable</h2>
+  <h2>
+    {{$route->number}}
+    {{$route->name}}
+  </h2>
   <p>Timetables under construction</p>
+  <p>Inbound is all traffic heading into central Hamilton </p>
+  <p>Outbound is all traffic heading out of central Hamilton </p>
   <table class="table table-striped">
     <thead>
       <tr>
         <th>Weekday</th>
+        <th>Direction</th>
+
         <th>Saturday</th>
+        <th>Direction</th>
+
         <th>Sunday</th>
+        <th>Direction</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>
-          @foreach ($weekday as $time)
-          {{$time->time}}
+            @foreach ($weekday as $time)
+              <li>
+                {{$time->time}}
+              </li>
+            @endforeach
+        </td>
+
+        <td>
+          @foreach ($weekday as $direction)
+            <li>
+              {{$direction->direction}}
+            </li>
           @endforeach
-      </td>
-        <td>Doe</td>
-        <td>john@example.com</td>
+        </td>
+
+        <td>
+          @foreach ($saturday as $time)
+            <li>
+              {{$time->time}}
+            </li>
+          @endforeach
+        </td>
+
+        <td>
+          @foreach ($saturday as $direction)
+            <li>
+              {{$direction->direction}}
+            </li>
+            @endforeach
+        </td>
+
+        <td>
+          @foreach ($sunday as $time)
+            <li>
+              {{$time->time}}
+            </li>
+            @endforeach
+        </td>
+
+        <td>
+          @foreach ($sunday as $direction)
+            <li>
+              {{$direction->direction}}
+            </li>
+            @endforeach
+        </td>
+
       </tr>
-      <tr>
-        <td>Mary</td>
+
+      <!-- <tr>
+        <td>This is blank</td>
+
         <td>Moe</td>
         <td>mary@example.com</td>
-      </tr>
-      <tr>
+      </tr> -->
+      <!-- <tr>
         <td>July</td>
         <td>Dooley</td>
         <td>july@example.com</td>
-      </tr>
+      </tr> -->
     </tbody>
   </table>
 </div>
@@ -103,6 +144,5 @@
 
 @section('footer')
 
-@end
 
 </html>
