@@ -4,14 +4,34 @@
 
   <h1>Timetable</h1>
 
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+    <ul class="nav navbar-nav navbar-right">
+
+      <li><a class="menu" href="{{url('/')}}"> home </a></li>
+      <li><a class="menu" href="{{url('/busFare')}}">bus fare</a></li>
+      <li><a class="menu" href="{{url('/busSchedule')}}"> bus schedule </a></li>
+      <li><a class="menu " href="{{url('/howToride')}}"> how to ride </a></li>
+      <li><a class="menu" href="{{url('/contact')}}">contact us</a></li>
+      <li><a class="menu" href="{{url('/alerts')}}">alerts</a></li>
+      <li><a class="menu" href="{{url('/about')}}"> about us</a></li>
+
+    </ul>
+  </div> <!-- /navbar-collapse -->
+
+
 <hr/>
 
+  {{$route->number}}
   {{$route->name}}
+  
   <h1>weekday</h1>
   @foreach ($weekday as $time)
-
   {{$time->time}}
+  @endforeach
 
+  @foreach ($weekday as $direction)
+  {{$direction->direction}}
   @endforeach
 
   <h1>saturday</h1>
@@ -56,7 +76,11 @@
     </thead>
     <tbody>
       <tr>
-        <td>John</td>
+        <td>
+          @foreach ($weekday as $time)
+          {{$time->time}}
+          @endforeach
+      </td>
         <td>Doe</td>
         <td>john@example.com</td>
       </tr>

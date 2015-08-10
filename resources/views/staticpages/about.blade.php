@@ -56,26 +56,30 @@
 <!-- end of header area -->
 
 <!-- about section -->
-<section class="about text-center" id="about">
-  <div class="container">
-    <div class="row" style="margin-top:200px">
+<section class="about text-center" id="about" >
+  <div class="container" style="margin-left:220px" >
+    <div class="row" style="margin-top:200px" >
       <!-- <h2>about us</h2>
       <h4>Something about the TLF</h4> -->
 
       <!-- <img class="brain img-responsive" src="img/TLFGroup.jpg" alt="TLF 2015 Interns" style="position:center"> -->
       <div class="col-md-4 col-sm-6">
         <div class="single-about-detail clearfix">
-          <div class="about-img">
-            <img class="img-responsive" src="/img/TLF2015.jpg" alt="">
+          <div class="about-img" >
+            <img class="img-responsive" src="/img/TLF2015.jpg" alt="TLF2015 Students" >
           </div>
 
-          <div class="about-details">
-            <div class="pentagon-text">
+          <div class="about-details" >
+            <div class="pentagon-text" align="center">
               <h1>T</h1>
             </div>
 
             <h3> Technology Leadership Forum </h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+            <p>
+							The Technology Internship Forum is a three month program that involves placement at one of the sponsoring companies.
+							Over the internship the students will have to bond together to complete a project, pass three exams, and work that is allocated from the company.
+							The program provides essential experience to the real world work, in the IT industry.
+						</p>
 
 
           </div>
@@ -85,7 +89,7 @@
       <div class="col-md-4 col-sm-6">
         <div class="single-about-detail">
           <div class="about-img">
-            <img class="img-responsive" src="img/TLF20152.jpg" alt="Technology Leadership Forum 2015 Group">
+            <img class="img-responsive" src="img/tlf20152_copy.jpg" alt="Technology Leadership Forum 2015 Group">
           </div>
 
           <div class="about-details">
@@ -94,38 +98,20 @@
             </div>
 
             <h3> Bermuda Transit </h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+            <p>
+							BermudaTransit is a project that was decided on by the TLF interns of 2015. Its a web application that will assist locals and visitors with public transport.
+							The application will provide individuals with an idea of when the public transport is scheduled, disruptions to the routes, and there shall be real time
+							updates of services to give users accurate information.
+						</p>
 
 
           </div>
         </div>
       </div>
-
-
-      <!-- <div class="col-md-4 col-sm-6">
-        <div class="single-about-detail">
-          <div class="about-img">
-            <img class="img-responsive" src="img/TLF.jpg" alt="">
-          </div>
-
-          <div class="about-details">
-            <div class="pentagon-text">
-              <h1>M</h1>
-            </div>
-
-            <h3>TLF Board</h3>
-            <p>
-              Without the organisation and contiues review of the internship from the TLF Board, Alumni, and Sponsors.
-              This program will not be able to be as successful as it is and give back to Bermuda, grow and get better each year.
-              The TLF internship is a great opportunity for young aspiring IT individuals to get in.
-
-            </p>
-          </div>
-        </div>
-      </div> -->
     </div>
   </div>
-</section><!-- end of about section -->
+</section>
+<!-- end of about section -->
 
 
 <!-- service section starts here -->
@@ -135,7 +121,7 @@
     <div class="row">
       <h2>Technology Leadership Forum</h2>
 
-			<h3>TLF (Technology Leadership Forum)</h3>
+			<h3>TLF</h3>
  			<h4>
 						Founded in 2007, the TLF is a 12-13 week summer internship programme
 						that provides college students, with a major in information technology (IT)
@@ -169,16 +155,16 @@
 
 <!-- team section -->
 
-<section class="team" id="team">
-  <div class="container" >
-    <div class="row" style="align:center">
-      <div class="team-heading text-center">
+<section class="team" id="team" style="text-align:center" align="center">
+  <div class="container" style="margin:220px" >
+    <div class="row">
+      <!-- <div class="team-heading text-center" >
 
         <h2>our team</h2>
         <h4>This is the team for the 2015 TLF Internship program over the summer. This application was developed by the students of the internship, with the assistance of TLF alumni.</h4>
-      </div>
+      </div> -->
 
-      <div class="col-md-2 single-member col-sm-4">
+      <div align="center" class="col-md-2 single-member col-sm-4">
         <div class="person">
           <img class="img-responsive" src="img/TLFAB.jpg" alt="member-1">
         </div>
@@ -218,8 +204,8 @@
           <div class="arrow-bottom"></div>
           <h3>Charnae Richardson</h3>
           <p>
-							Entering her second year of the Computer Information Systems associates programme at the Bermuda College, Charnae has gained great knowledge being in the TLF Programme.
-							Playing the project lead role, Charnae organized and conducted meetings. She also had to communicate with potential resources for the project and provide documentation and plans for the overall project.
+							Entering second year of the Computer Information Systems associates programme at the Bermuda College. Charnae has gained great knowledge being in the TLF Programme.
+							Playing the project lead role, organized and conducted meetings. She had to communicate, documentation, and plans.
  					</p>
         </div>
       </div>
@@ -230,8 +216,9 @@
           <div class="arrow-top"></div>
           <h3>Chris Wellman</h3>
           <p>
-						The lead developer of BermudaTransit also helped gather data and play a part in organization of the project.
-						Completed a BSc in Computing. There has been a wealth of knowledge and experience that has come over the tenancy of the TLF Internship.
+						The lead developer of BermudaTransit, gathered data and organized the project.
+						Completed a BSc in Computing. There is a lot of knowledge and experience that has come from the TLF Internship.
+						The internship is great for anyone looking for insight on what its like to work in Bermuda in IT field.
  					</p>
         </div>
         <div class="person">
@@ -255,6 +242,8 @@
   </div>
 </section> -->
 <!-- end of map section -->
+
+
 
 <!-- contact section starts here -->
  <!-- <section class="contact">
@@ -285,9 +274,6 @@
     </div>
   </div>
 </footer>
-
-
-
 
 
 <!-- script tags

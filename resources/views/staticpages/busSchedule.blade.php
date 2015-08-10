@@ -93,7 +93,14 @@
 			<section class="service text-center" id="service">
 				<div class="container">
 					<div class="row">
+
 						<h2>Bus Schedule</h2>
+
+						<h3>
+							<a href="{{url('/schedule')}}">More Bus Routes </a>
+						</h3>
+
+<hr/>
 
 						<!-- <table  style="width:100%"; color: #000 , border="1"> -->
 	<table>
@@ -450,11 +457,6 @@
 
   </tbody>
 </table>
-
-<h3>
-	<a href="{{url('/schedule')}}">Bus Routes </a>
-</h3>
-
 
   <h2> Poles </h2>
     <h3>
