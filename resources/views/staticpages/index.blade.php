@@ -11,8 +11,7 @@
 </head>
 <body>
 
-	<!-- ====================================================
-	header section -->
+	<!-- ==================================================== header section -->
 	<header class="top-header">
 		<div class="container">
 			<div class="row">
