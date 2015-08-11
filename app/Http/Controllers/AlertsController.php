@@ -29,34 +29,40 @@ class AlertsController extends Controller
     //return 'get all alerts';
   }
 
-
-  // public function index()
-  // {
-  //
-  //   $alerts = Alert::all();
-  //
-  //
-  //   return view('alerts', compact('alerts'));
-  //
-  //
-  // }
-
-
-  public function show($id)
+  public function show(Alert $alert)
   {
-    $alert = Alert::find($id);
-    return $alert;
+    // $alert = Alert::find($id);
+
+
+    //capture an identifier id and show in web page
+    //return ($id);
+
+
+    //capture an identifier id of item in db and show in web page
+    //$alert = Alert::findorFail($id);
+
+    // return $alert;
+    return view('alerts.show',compact('alert'));
   }
 
+  public function create()
+  {
+    // if (Auth::guest())
+    // {
+    //   return redirect('notifies');
+    // }
+    //return view('alerts.create');
+    return view('alerts.create', compact('alerts'));
+  }
 
+  public function edit(Alert $alert)
+  {
+    //return 'new edit page';
 
+    //$alert = Alert::findorFail($id);
 
-
-
-
-
-
-
+    return view('alerts.edit', compact('alert'));
+  }
 
 
 

@@ -24,7 +24,7 @@
   @foreach ($alerts as $alert)
     <alert>
       <h2>
-        <a href="#">{{$alert->title}} </a>
+        <a href="{{url('/alerts',$alert->id)}}">{{$alert->title}} </a>
       </h2>
 
 
