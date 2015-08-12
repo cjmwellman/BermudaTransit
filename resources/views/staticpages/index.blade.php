@@ -100,23 +100,26 @@
 		<hr/>
 
 		<div id = "contentright" style = "center">
+
+			<a class="menu" href="http://www.act.bm" target="_blank">
 			<img src="img/act_logo.jpg" alt="ACT" style="padding:32px">
+			</a>
 
-
-
+			<a class="menu" href="http://www.bhb.bm" target="_blank">
 			<img src="img/bhb.jpg" alt="BHB" style="padding:32px">
+			</a>
 
-
-
+			<a class="menu" href="http://www.ccs.bm" target="_blank">
 			<img src="img/ccs.jpg" alt="CCS" style="padding:32px">
+			</a>
 
-
-
+			<a class="menu" href="http://www.logic.bm" target="_blank">
 			<img src="img/logic.jpg" alt="Logic" style="padding:32px">
+			</a>
 
-
-
+			<a class="menu" href="http://www.nova.bm" target="_blank">
 			<img src="img/nova.jpg" alt="Nova" style="padding:32px">
+			</a>
 
 			<hr/>
 
