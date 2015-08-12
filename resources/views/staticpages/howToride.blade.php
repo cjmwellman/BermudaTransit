@@ -163,6 +163,21 @@
 			</section>
 			<!-- end of about section -->
 
+			<!-- advertisement section -->
+			<hr/>
+
+			<div id = "contentright" style = "center">
+
+				<a class="menu" href="http://www.smattscyclelivery.com" target="_blank" >
+				<img src="img/smatts_banner.jpg" alt="Smatts Cycles" style="padding-left:175px" style="align:center">
+				</a>
+
+				<hr/>
+
+			</div>
+
+			<!-- end of advertisement section -->
+
 			<!-- map section -->
 			<!-- <section class="api-map" id="contact">
 				<div class="container-fluid">

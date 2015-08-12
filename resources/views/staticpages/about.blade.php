@@ -55,12 +55,12 @@
   </header>
 <!-- end of header area -->
 
+
 <!-- about section -->
 <section class="about text-center" id="about" >
-  <div class="container" style="margin-left:220px" >
-    <div class="row" style="margin-top:200px" >
-      <!-- <h2>about us</h2>
-      <h4>Something about the TLF</h4> -->
+  <div class="container" style="margin-left:200px" >
+    <div class="row" style="margin-top:200px">
+
 
       <!-- <img class="brain img-responsive" src="img/TLFGroup.jpg" alt="TLF 2015 Interns" style="position:center"> -->
       <div class="col-md-4 col-sm-6">
@@ -155,19 +155,15 @@
 
 <!-- team section -->
 
-<section class="team" id="team" style="text-align:center" align="center">
-  <div class="container" style="margin:220px" >
+<section class="team" id="team" style="text-align:center" >
+  <div class="container" style="margin-left:200px">
     <div class="row">
-      <!-- <div class="team-heading text-center" >
-
-        <h2>our team</h2>
-        <h4>This is the team for the 2015 TLF Internship program over the summer. This application was developed by the students of the internship, with the assistance of TLF alumni.</h4>
-      </div> -->
-
       <div align="center" class="col-md-2 single-member col-sm-4">
+
         <div class="person">
           <img class="img-responsive" src="img/TLFAB.jpg" alt="member-1">
         </div>
+
         <div class="person-detail">
           <div class="arrow-bottom"></div>
           <h3>Alexis Burgess</h3>
@@ -222,15 +218,14 @@
  					</p>
         </div>
         <div class="person">
-          <img class="img-responsive" src="img/TLFCW.jpg" alt="member-4">
+          <img class="img-responsive" src="img/TLFCW.jpg" alt="member-4" >
         </div>
       </div>
-
-
     </div>
   </div>
 </section>
 <!-- end of team section -->
+
 
 
 <!-- map section -->
@@ -245,10 +240,35 @@
 
 
 
-<!-- contact section starts here -->
- <!-- <section class="contact">
-  <div class="container">
-    <div class="row">
+
+<!-- advertisement section -->
+<hr/>
+<div id = "contentright" style="text-align:center"  >
+
+<a class="menu" href="http://www.act.bm" target="_blank">
+	<img src="img/act_logo.jpg" alt="ACT" align ="middle">
+</a>
+
+<a class="menu" href="http://www.bhb.bm" target="_blank">
+	<img src="img/bhb.jpg" alt="BHB">
+</a>
+
+<a class="menu" href="http://www.ccs.bm" target="_blank">
+	<img src="img/ccs.jpg" alt="CCS">
+</a>
+
+<a class="menu" href="http://www.logic.bm" target="_blank">
+	<img src="img/logic.jpg" alt="Logic">
+</a>
+
+<a class="menu" href="http://www.nova.bm" target="_blank">
+	<img src="img/nova.jpg" alt="Nova">
+</a>
+
+<hr/>
+
+</div>
+<!-- end of advertisement section -->
 
 
 
