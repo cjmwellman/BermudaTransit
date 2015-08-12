@@ -59,7 +59,7 @@
 <!-- slider area-->
 			<section class="slider" id="home">
 			<div class="container-fluid">
-					<div class="row" style="margin-top:50px">
+					<div class="row" >
 						<div id="carouselHacked" class="carousel slide carousel-fade" data-ride="carousel">
 						<div class="header-backup"></div>
 
@@ -169,7 +169,7 @@
 			<div id = "contentright" style = "center">
 
 				<a class="menu" href="http://www.smattscyclelivery.com" target="_blank" >
-				<img src="img/smatts_banner.jpg" alt="Smatts Cycles" style="padding-left:175px" style="align:center">
+				<img src="img/smatts_banner.jpg" alt="Smatts Cycles" style="padding-left:175px" style="align:center" class="img-responsive logo>
 				</a>
 
 				<hr/>
@@ -189,31 +189,7 @@
 			<!-- end of map section -->
 
 		<!--	how to ride section starts here -->
-			 <!-- <section class="contact">
-				<div class="container">
-					<div class="row">
-							<div class="contact-caption clearfix">
-								<div class="contact-heading text-center">
-								</div>
-							</div>
-					</div>
-					<h2> Poles </h2>
-					<h3>
-						A bus stop is identified by a pink or blue pole which indicates the direction that the bus will be headed.
-						 Pink poles signify that the bus will be travelling into the City of Hamilton and blue poles signify that the bus will be travelling  out of the City of Hamilton.
-					</h3>
 
-					<hr/>
-
-					<h2> Fare </h2>
-					<h3>
-					 If you would like to pay your fare by cash, please ensure that you have exact change before boarding the bus.
-					 Dollar bills are not accepted. Place your fare directly into the fare-box as you enter the bus. Do not give your fare to the bus operator.
-					 Bus operators do not make change for passengers, do not handle fares, and do not deposit money in the fare-box.
-				 </h3>
-			<hr/>
-			 </div>
-			</section> -->
 			<!-- end of how to ride section -->
 
 
