@@ -181,9 +181,6 @@
 
 		<!--	how to ride section starts here -->
 
-		<div id = "banner">
-
-		</div>
 
 		<!-- end of how to ride section -->
 

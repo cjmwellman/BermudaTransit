@@ -103,7 +103,7 @@
 <hr/>
 
 						<!-- <table  style="width:100%"; color: #000 , border="1"> -->
-	<table>
+	<table style=margin-left:120px>
   	<thead>
 			<tr>
 				<th colspan="6" bgcolor="#FFFFFF" style="text-align: center" title="Field #1">Route 11: Hamilton - St. George&#39;s</th>
