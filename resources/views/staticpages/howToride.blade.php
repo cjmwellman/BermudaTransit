@@ -169,7 +169,7 @@
 			<div id = "contentright" style = "center">
 
 				<a class="menu" href="http://www.smattscyclelivery.com" target="_blank" >
-				<img src="img/smatts_banner.jpg" alt="Smatts Cycles" style="padding-left:175px" style="align:center" class="img-responsive logo>
+				<img src="img/smatts_banner.jpg" alt="Smatts Cycles" style="padding-left:175px" style="align:center" class="img-responsive logo">
 				</a>
 
 				<hr/>
