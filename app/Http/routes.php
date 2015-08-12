@@ -31,11 +31,13 @@ Route::get('/test', function () { return view('test'); });
 
 Route::get ('alerts','AlertsController@index');
 
+Route::get ('alerts/create', 'AlertsController@create');
+
 Route::get ('alerts/{id}','AlertsController@show');
 
-Route::get ('alerts/create','AlertsController@create');
+Route::post ('alerts','AlertsController@store');
 
-Route::resource('alerts', 'AlertsController');
+// Route::resource('alerts', 'AlertsController');
 
 
 /////

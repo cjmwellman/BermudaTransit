@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-
-use Illuminate\Http\Request;
 use App\Alert;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Carbon\Carbon;
+use Request;
 
 class AlertsController extends Controller
 {
@@ -22,26 +22,24 @@ class AlertsController extends Controller
     $alerts = Alert::all();
     //return $alerts;
 
-    ///
-
     //return view ('alerts.index')->with('alerts', $alerts);
     return view('alerts.index', compact('alerts'));
     //return 'get all alerts';
   }
 
-  public function show(Alert $alert)
+  public function show($id)
   {
-    // $alert = Alert::find($id);
+    //$alert = Alert::find($id);
 
 
     //capture an identifier id and show in web page
-    //return ($id);
+    //return $id;
 
 
     //capture an identifier id of item in db and show in web page
-    //$alert = Alert::findorFail($id);
+    $alert = Alert::findorFail($id);
 
-    // return $alert;
+    //return $alert;
     return view('alerts.show',compact('alert'));
   }
 
@@ -51,9 +49,22 @@ class AlertsController extends Controller
     // {
     //   return redirect('notifies');
     // }
-    //return view('alerts.create');
-    return view('alerts.create', compact('alerts'));
+    return view('alerts.create');
   }
+
+  public function store()
+  {
+    $input = Request::all();
+
+    $input['post_at'] = Carbon::now();
+
+    Alert::create($input);
+
+
+    return redirect ('alerts');
+  }
+
+
 
   public function edit(Alert $alert)
   {

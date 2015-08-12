@@ -19,6 +19,10 @@
     </ul>
   </div>
 
+  <h2>
+    <a href="{{url('/alerts/create')}}">Create New Alert </a>
+  </h2>
+
   <hr/>
 
   @foreach ($alerts as $alert)
@@ -33,6 +37,7 @@
     </alert>
 
   @endforeach
+
 
 @section('footer')
 
