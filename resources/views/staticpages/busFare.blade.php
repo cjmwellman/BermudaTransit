@@ -73,7 +73,7 @@
 
 			<!-- about section -->
 			<section class="about text-center" id="about">
-				<div class="container" style="margin-top:120px">
+				<div class="container" style="margin-top:175px">
 					<div class="row">
 						<h2> Fares </h2>
 					</div>
