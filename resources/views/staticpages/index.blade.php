@@ -66,7 +66,7 @@
 								<div class="carousel-inner" role="listbox">
 
 										<div class="item active">
-											<img src="img/banner4.jpg" alt="">
+											<img src="img/banner4.jpg" alt="BermudaTransit">
 												<div class="carousel-caption">
 													<h1>providing</h1>
 													<p>highquality service for locals & tourists</p>
@@ -96,7 +96,33 @@
 			</section>
 			<!-- end of slider section -->
 
+		<!-- advertisement section -->
 		<hr/>
+
+		<div id = "contentright" style = "center">
+			<img src="img/act_logo.jpg" alt="ACT" style="padding:32px">
+
+
+
+			<img src="img/bhb.jpg" alt="BHB" style="padding:32px">
+
+
+
+			<img src="img/ccs.jpg" alt="CCS" style="padding:32px">
+
+
+
+			<img src="img/logic.jpg" alt="Logic" style="padding:32px">
+
+
+
+			<img src="img/nova.jpg" alt="Nova" style="padding:32px">
+
+			<hr/>
+
+		</div>
+
+		<!-- end of advertisement section -->
 
 			<!-- about section -->
 			<section class="about text-center" id="about">
@@ -150,6 +176,10 @@
 			<!-- end of map section -->
 
 		<!--	how to ride section starts here -->
+
+		<div id = "banner">
+
+		</div>
 
 		<!-- end of how to ride section -->
 

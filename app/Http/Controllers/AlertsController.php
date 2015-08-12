@@ -20,11 +20,13 @@ class AlertsController extends Controller
   public function index()
   {
     $alerts = Alert::all();
+    $alerts = Alert::latest('post_at')->get();
+
+
     //return $alerts;
 
     //return view ('alerts.index')->with('alerts', $alerts);
     return view('alerts.index', compact('alerts'));
-    //return 'get all alerts';
   }
 
   public function show($id)
