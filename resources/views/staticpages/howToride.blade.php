@@ -18,7 +18,7 @@
 			<div class="row">
 				<div class="col-xs-5 header-logo">
 					<br>
-					<a href="/index.blade.php">
+					<a href="/">
 						<img src="img/bdatranlogo.png" alt="BDATransit" class="img-responsive logo">
 					</a>
 				</div>
