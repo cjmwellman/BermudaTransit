@@ -56,7 +56,7 @@
     {{$route->number}}
     {{$route->name}}
   </h2>
-  <p>Timetables under construction</p>
+  
   <p>Inbound is all traffic heading into central Hamilton </p>
   <p>Outbound is all traffic heading out of central Hamilton </p>
   <table class="table table-striped">
