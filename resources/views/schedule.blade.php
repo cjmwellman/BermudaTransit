@@ -76,12 +76,12 @@
   @endforeach
 </div>
 
-<div id="content" style="padding-top:200px" >
+<!-- <div id="content" style="padding-top:200px" >
   <h1 style="text-align:center">Timetable</h1>
 <hr/>
-    <div class="body" style="text-align:center">
+    <div class="body" style="text-align:center"> -->
       <!-- <h2>Timetable</h2> -->
-      <h2>
+      <!-- <h2>
         {{$route->number}}
         {{$route->name}}
       </h2>
@@ -105,7 +105,7 @@
         </tbody>
       </table>
 
-</div>
+</div> -->
 
   @section('footer')
 

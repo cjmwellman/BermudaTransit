@@ -203,7 +203,7 @@
           <h3>Charnae Richardson</h3>
           <p>
 							Entering second year of the Computer Information Systems associates programme at the Bermuda College. Charnae has gained great knowledge being in the TLF Programme.
-							Playing the project lead role, organized and conducted meetings. She had to communicate, documentation, and plans.
+							As project lead, organized and conducted meetings. She had to communicate, documentation, and plans.
  					</p>
         </div>
       </div>
