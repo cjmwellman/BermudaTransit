@@ -106,7 +106,7 @@
 
 						<!-- <table  style="width:100%"; color: #000 , border="1"> -->
 
-<table style=margin-left:120px>
+<table align="center" style="width:100%" color: #000 , border="1"; >
 	<thead>
 		<tr>
 			<th colspan="6" bgcolor="#FFFFFF" style="text-align: center" title="Field #1">Route 11: Hamilton - St. George&#39;s</th>
@@ -122,12 +122,12 @@
 					<td colspan="2" bgcolor="#FFFFFF" style="text-align: center">Sunday &amp; Holidays  </td>
 				</tr>
 				<tr>
-					<td width="22%" bgcolor="#FFFFFF">Leave Hamilton</td>
+					<td width="17%" bgcolor="#FFFFFF">Leave Hamilton</td>
 					<td width="19%" bgcolor="#FFFFFF">Leave St. George&#39;s </td>
 					<td width="17%" bgcolor="#FFFFFF">Leave Hamilton</td>
 					<td width="19%" bgcolor="#FFFFFF">Leave St. George&#39;s</td>
-					<td width="13%" bgcolor="#FFFFFF">Leave Hamilton</td>
-					<td width="10%" bgcolor="#FFFFFF">Leave St.George&#39;s</td>
+					<td width="17%" bgcolor="#FFFFFF">Leave Hamilton</td>
+					<td width="19%" bgcolor="#FFFFFF">Leave St. George&#39;s</td>
 				</tr>
 				<tr>
 					<td bgcolor="#FFFFFF">6:45AM</td>
@@ -422,7 +422,7 @@
 
 <hr/>
 
-<table style=margin-left:120px>
+<table table align="center" style="width:100%" color: #000 , border="1";>
 	<thead>
 		<tr>
 			<th colspan="6" bgcolor="#FFFFFF" style="text-align: center" title="Field #1">Route 11: Hamilton - St. George&#39;s</th>
@@ -434,7 +434,7 @@
 		</tr>
 		<tr>
 			<td width="22%" bgcolor="#FFFFFF">Leave St.Georges</td>
-			<td width="19%" bgcolor="#FFFFFF">Time </td>
+			<td width="10%" bgcolor="#FFFFFF">Time </td>
 
 			<td width="22%" bgcolor="#FFFFFF">Leave Hamilton</td>
 			<td width="10%" bgcolor="#FFFFFF">Time</td>
@@ -637,6 +637,10 @@
 		</tr>
 	</tbody>
 </table>
+
+	<h3>
+		The times are from the bus terminal to each of the stops.
+	</h3>
 
   <h2> Poles </h2>
     <h4>

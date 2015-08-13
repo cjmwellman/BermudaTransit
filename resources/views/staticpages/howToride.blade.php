@@ -93,7 +93,8 @@
 						<h2> Get Tickets, Tokens, Passes  </h2>
 						<h3>
 	            Tickets, tokens and transportation passes are available from the Hubert Winfield (Sparky) Lightbourne Central Bus Terminal on Washington Street in Hamilton.
-	            Tokens and transportation passes are also available at the Ferry Terminal in Hamilton, the Visitors’ Information Centres, many hotels and guest houses. Tickets, school passes and adult passes are available at many post offices.
+	            Tokens and transportation passes are also available at the Ferry Terminal in Hamilton, the Visitors’ Information Centres, many hotels and guest houses.
+							Tickets, school passes and adult passes are available at many post offices.
 	            Tickets are sold in booklets of 15 only. Any sale or purchase of individual tickets is unlawful.
 
 						</h3>

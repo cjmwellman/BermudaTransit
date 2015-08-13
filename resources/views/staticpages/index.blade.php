@@ -106,11 +106,11 @@
 						<h2>Bermuda Transit</h2>
 						<h4>
 
-							BermudaTransit was developed by a group of interns as a month long project.
-							The idea came about due to the lack of modern technology in Bermuda.
-							Our public transportation is not at a quality standard and it is failing to keep up with the majority of the world.
-							There is a need for such application to solve daily issues, not for just one group but for locals and visitors in Bermuda to have an idea of location for public transport.
-							This website allows user an ETA of the bus, location of bus stops and information about cancellations and delays.
+							BermudaTransit was developed by TLF interns as a month long project.
+							The idea came about as we need to improve our public transport service in Bermuda.
+							THe public transportation is not at a quality standard and it is failing to keep up with the majority of the world.
+							There is a need for such application to solve daily issues, not for just one but for all in Bermuda looking for public transport.
+							This website allows user an ETA of the bus, information about services and information about cancellations and delays.
 
 						</h4>
 
@@ -127,8 +127,8 @@
 					<div class="row">
 						<h2>Mission Statement</h2>
 						<h4>
-							To provide exceptional information about Bermudas Public Transportation, regarding schedules, ETAs, and alerts.
-							Created by Technology Leadership Forum interns as a team project, Bermuda Transit is only in the beginning stages with plenty of exceptional ideas to enhance our future services.
+							To provide exceptional information about Bermudas Public Transportation Service, regarding schedules, ETAs, alerts, and key information.
+							Created by Technology Leadership Forum interns as a team project, Bermuda Transit is only in the beginning stages with plenty of ideas to enhance our future services.
 						</h4>
 				</div>
 			</section>

@@ -209,7 +209,7 @@
 					<div class="row" style="margin-top:0px">
 						<h2> Fare  </h2>
 						<h3>
-							If you would like to pay your fare by cash, please ensure that you have exact change before boarding the bus.
+							If you would like to pay fare by cash, please ensure that you have exact change before boarding the bus.
 							Dollar bills are not accepted. Place your fare directly into the fare-box as you enter the bus. Do not give your fare to the bus operator.
 							Bus operators do not make change for passengers, do not handle fares, and do not deposit money in the fare-box.
 

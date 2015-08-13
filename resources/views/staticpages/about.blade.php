@@ -216,7 +216,7 @@
           <p>
 						The lead developer of BermudaTransit, gathered data and organized the project.
 						Completed a BSc in Computing. There is a lot of knowledge and experience that has come from the TLF Internship.
-						The internship is great for anyone looking for insight on what its like to work in Bermuda in IT field.
+						The internship is great for anyone looking for insight on what its like to work in the IT field.
  					</p>
         </div>
         <div class="person">
