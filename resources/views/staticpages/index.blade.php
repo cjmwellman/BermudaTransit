@@ -71,7 +71,7 @@
 											<img src="img/banner4.jpg" alt="BermudaTransit">
 												<div class="carousel-caption">
 													<h1>providing</h1>
-													<p>highquality service for locals & tourists</p>
+													<p>high quality service for locals & tourists</p>
 												</div>
 										</div>
 
@@ -108,7 +108,7 @@
 
 							BermudaTransit was developed by TLF interns as a month long project.
 							The idea came about as we need to improve our public transport service in Bermuda.
-							THe public transportation is not at a quality standard and it is failing to keep up with the majority of the world.
+							The public transportation is not at a quality standard and it is failing to keep up with the majority of the world.
 							There is a need for such application to solve daily issues, not for just one but for all in Bermuda looking for public transport.
 							This website allows user an ETA of the bus, information about services and information about cancellations and delays.
 

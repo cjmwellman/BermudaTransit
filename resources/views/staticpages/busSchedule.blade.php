@@ -77,17 +77,13 @@
 			<section class="about text-center" id="about">
 				<div class="container" style="margin-top:110px">
 					<div class="row">
-						<!-- <h2>Bermuda Transit</h2>
-						<h4>
-							Bermuda Transit was developed by a group of interns as a month long project.
-							The idea came about as in Bermuda our public transportation is not up to standard with majority of the world.
-							The need for such application to solve issues for not just one group but for everyone in Bermuda to have an idea of location for public transport.
-						</h4> -->
+
 
 
 					</div>
 				</div>
-			</section><!-- end of about section -->
+			</section>
+			<!-- end of about section -->
 
 
 			<!-- service section starts here -->
@@ -104,7 +100,7 @@
 
 <hr/>
 
-						<!-- <table  style="width:100%"; color: #000 , border="1"> -->
+
 
 <table align="center" style="width:100%" color: #000 , border="1"; >
 	<thead>

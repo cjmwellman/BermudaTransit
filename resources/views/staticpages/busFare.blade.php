@@ -80,7 +80,7 @@
 						<h2> Fares </h2>
 					</div>
 
-          <table style="width :80%">
+          <table style="width :100%" color: #FFFFFF , border="0";>
             <th>
               <h1> Fare Category  </h1>
             </th>
