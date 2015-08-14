@@ -3,7 +3,7 @@
   <head>
 
     <meta charset="utf-8">
-    <title>Document</title>
+    <title>BermudaTransit</title>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <!-- <link rel="stylesheet" type="text/css" media="all" href="/css/all.css"> -->
   </head>

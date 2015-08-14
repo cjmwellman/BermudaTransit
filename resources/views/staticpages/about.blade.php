@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>BermudaTransit - Responsive HTML Template</title>
+	<title>BermudaTransit</title>
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/min.css">
 	<link rel="stylesheet" href="css/all.css">
@@ -123,7 +123,6 @@
     <div class="row">
       <h2>Technology Leadership Forum</h2>
 
-			<h3>TLF</h3>
  			<h4>
 						Founded in 2007, the TLF is a 12-13 week summer internship programme
 						that provides college students, with a major in information technology (IT)

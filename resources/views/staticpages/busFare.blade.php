@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>BermudaTransit - Responsive HTML Template</title>
+	<title>BermudaTransit</title>
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/min.css">
 	<link rel="stylesheet" href="css/all.css">
